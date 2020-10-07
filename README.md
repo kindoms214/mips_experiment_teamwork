@@ -5,4 +5,4 @@
 下面是我们构造的CPU的结构图，我们使用[draw.io](https://app.diagrams.net/)进行的绘制：
 ![Image text](https://github.com/kindoms214/mips_experiment_teamwork/blob/master/git_temp.png)
 
-我们编写的CPU的代码在目录下。
+我们主要的工作以及设计的CPU的相关解释在实验报告文件中可以了解到
