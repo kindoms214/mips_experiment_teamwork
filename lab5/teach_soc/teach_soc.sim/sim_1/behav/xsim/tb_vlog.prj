@@ -1,0 +1,27 @@
+# compile verilog/system verilog design source files
+verilog xil_defaultlib  \
+"../../../../teach_soc.srcs/sources_1/ip/clk_pll/clk_pll_sim_netlist.v" \
+"../../../../teach_soc.srcs/sources_1/new/myCPU/InstMem.v" \
+"../../../../teach_soc.srcs/sources_1/new/myCPU/alu.v" \
+"../../../../teach_soc.srcs/sources_1/new/myCPU/blockA.v" \
+"../../../../teach_soc.srcs/sources_1/new/myCPU/blockB.v" \
+"../../../../teach_soc.srcs/sources_1/new/myCPU/blockC.v" \
+"../../../../teach_soc.srcs/sources_1/new/myCPU/blockD.v" \
+"../../../../teach_soc.srcs/sources_1/new/myCPU/brUnit.v" \
+"../../../../teach_soc.srcs/sources_1/new/myCPU/control.v" \
+"../../../../teach_soc.srcs/sources_1/new/myCPU/dataMem.v" \
+"../../../../teach_soc.srcs/sources_1/new/myCPU/getInst.v" \
+"../../../../teach_soc.srcs/sources_1/new/myCPU/jmpPause.v" \
+"../../../../teach_soc.srcs/sources_1/new/myCPU/pc.v" \
+"../../../../teach_soc.srcs/sources_1/new/myCPU/rawPause.v" \
+"../../../../teach_soc.srcs/sources_1/new/myCPU/register_heap.v" \
+"../../../../teach_soc.srcs/sources_1/new/myCPU/signExtend.v" \
+"../../../../teach_soc.srcs/sources_1/new/teach_soc_top.v" \
+"../../../../teach_soc.srcs/sources_1/new/myCPU/top_module.v" \
+"../../../../teach_soc.srcs/sim_1/new/tb.v" \
+
+# compile glbl module
+verilog xil_defaultlib "glbl.v"
+
+# Do not sort compile order
+nosort

@@ -1,0 +1,1001 @@
+
+*** Running vivado
+    with args -log top_module.vds -m64 -product Vivado -mode batch -messageDb vivado.pb -notrace -source top_module.tcl
+
+
+****** Vivado v2019.2 (64-bit)
+  **** SW Build 2708876 on Wed Nov  6 21:40:23 MST 2019
+  **** IP Build 2700528 on Thu Nov  7 00:09:20 MST 2019
+    ** Copyright 1986-2019 Xilinx, Inc. All Rights Reserved.
+
+source top_module.tcl -notrace
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'e:/study/bitmips_experiments/lab5/teach_soc/xilinx.com_user_led_num_1.0'.
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'D:/Software/vivado/Vivado/Vivado/2019.2/data/ip'.
+Command: synth_design -top top_module -part xc7a35tcsg324-1
+Starting synth_design
+Attempting to get a license for feature 'Synthesis' and/or device 'xc7a35t'
+INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xc7a35t'
+INFO: [Device 21-403] Loading part xc7a35tcsg324-1
+INFO: Launching helper process for spawning children vivado processes
+INFO: Helper process launched with PID 14088 
+WARNING: [Synth 8-992] instD is already implicitly declared earlier [E:/study/bitmips_experiments/lab5/teach_soc/teach_soc.srcs/sources_1/new/myCPU/top_module.v:77]
+WARNING: [Synth 8-992] C1E is already implicitly declared earlier [E:/study/bitmips_experiments/lab5/teach_soc/teach_soc.srcs/sources_1/new/myCPU/top_module.v:174]
+WARNING: [Synth 8-992] C3E is already implicitly declared earlier [E:/study/bitmips_experiments/lab5/teach_soc/teach_soc.srcs/sources_1/new/myCPU/top_module.v:175]
+WARNING: [Synth 8-992] MemtoRegE is already implicitly declared earlier [E:/study/bitmips_experiments/lab5/teach_soc/teach_soc.srcs/sources_1/new/myCPU/top_module.v:176]
+WARNING: [Synth 8-992] MemWriteE is already implicitly declared earlier [E:/study/bitmips_experiments/lab5/teach_soc/teach_soc.srcs/sources_1/new/myCPU/top_module.v:177]
+WARNING: [Synth 8-992] RegWriteE is already implicitly declared earlier [E:/study/bitmips_experiments/lab5/teach_soc/teach_soc.srcs/sources_1/new/myCPU/top_module.v:178]
+WARNING: [Synth 8-992] CAE is already implicitly declared earlier [E:/study/bitmips_experiments/lab5/teach_soc/teach_soc.srcs/sources_1/new/myCPU/top_module.v:179]
+WARNING: [Synth 8-992] CBE is already implicitly declared earlier [E:/study/bitmips_experiments/lab5/teach_soc/teach_soc.srcs/sources_1/new/myCPU/top_module.v:180]
+WARNING: [Synth 8-992] RD1E is already implicitly declared earlier [E:/study/bitmips_experiments/lab5/teach_soc/teach_soc.srcs/sources_1/new/myCPU/top_module.v:181]
+WARNING: [Synth 8-992] RD2E is already implicitly declared earlier [E:/study/bitmips_experiments/lab5/teach_soc/teach_soc.srcs/sources_1/new/myCPU/top_module.v:182]
+WARNING: [Synth 8-992] WriteRegE is already implicitly declared earlier [E:/study/bitmips_experiments/lab5/teach_soc/teach_soc.srcs/sources_1/new/myCPU/top_module.v:183]
+WARNING: [Synth 8-992] immeextendE is already implicitly declared earlier [E:/study/bitmips_experiments/lab5/teach_soc/teach_soc.srcs/sources_1/new/myCPU/top_module.v:184]
+WARNING: [Synth 8-992] PCPlus4E is already implicitly declared earlier [E:/study/bitmips_experiments/lab5/teach_soc/teach_soc.srcs/sources_1/new/myCPU/top_module.v:185]
+WARNING: [Synth 8-992] jmpaddrE is already implicitly declared earlier [E:/study/bitmips_experiments/lab5/teach_soc/teach_soc.srcs/sources_1/new/myCPU/top_module.v:186]
+WARNING: [Synth 8-992] jalE is already implicitly declared earlier [E:/study/bitmips_experiments/lab5/teach_soc/teach_soc.srcs/sources_1/new/myCPU/top_module.v:187]
+WARNING: [Synth 8-992] RegWriteM is already implicitly declared earlier [E:/study/bitmips_experiments/lab5/teach_soc/teach_soc.srcs/sources_1/new/myCPU/top_module.v:243]
+WARNING: [Synth 8-992] MemtoRegM is already implicitly declared earlier [E:/study/bitmips_experiments/lab5/teach_soc/teach_soc.srcs/sources_1/new/myCPU/top_module.v:245]
+WARNING: [Synth 8-992] WriteRegM is already implicitly declared earlier [E:/study/bitmips_experiments/lab5/teach_soc/teach_soc.srcs/sources_1/new/myCPU/top_module.v:248]
+WARNING: [Synth 8-992] PCPlus4M is already implicitly declared earlier [E:/study/bitmips_experiments/lab5/teach_soc/teach_soc.srcs/sources_1/new/myCPU/top_module.v:249]
+WARNING: [Synth 8-992] jalM is already implicitly declared earlier [E:/study/bitmips_experiments/lab5/teach_soc/teach_soc.srcs/sources_1/new/myCPU/top_module.v:251]
+WARNING: [Synth 8-992] MemtoRegW is already implicitly declared earlier [E:/study/bitmips_experiments/lab5/teach_soc/teach_soc.srcs/sources_1/new/myCPU/top_module.v:301]
+WARNING: [Synth 8-992] aluoutW is already implicitly declared earlier [E:/study/bitmips_experiments/lab5/teach_soc/teach_soc.srcs/sources_1/new/myCPU/top_module.v:302]
+WARNING: [Synth 8-992] MemReadDataW is already implicitly declared earlier [E:/study/bitmips_experiments/lab5/teach_soc/teach_soc.srcs/sources_1/new/myCPU/top_module.v:303]
+WARNING: [Synth 8-992] jalW is already implicitly declared earlier [E:/study/bitmips_experiments/lab5/teach_soc/teach_soc.srcs/sources_1/new/myCPU/top_module.v:304]
+WARNING: [Synth 8-992] mux5 is already implicitly declared earlier [E:/study/bitmips_experiments/lab5/teach_soc/teach_soc.srcs/sources_1/new/myCPU/top_module.v:309]
+WARNING: [Synth 8-992] mux7 is already implicitly declared earlier [E:/study/bitmips_experiments/lab5/teach_soc/teach_soc.srcs/sources_1/new/myCPU/top_module.v:310]
+---------------------------------------------------------------------------------
+Starting RTL Elaboration : Time (s): cpu = 00:00:04 ; elapsed = 00:00:05 . Memory (MB): peak = 849.922 ; gain = 239.609
+---------------------------------------------------------------------------------
+INFO: [Synth 8-6157] synthesizing module 'top_module' [E:/study/bitmips_experiments/lab5/teach_soc/teach_soc.srcs/sources_1/new/myCPU/top_module.v:3]
+INFO: [Synth 8-6157] synthesizing module 'getInst' [E:/study/bitmips_experiments/lab5/teach_soc/teach_soc.srcs/sources_1/new/myCPU/getInst.v:3]
+INFO: [Synth 8-6157] synthesizing module 'pc' [E:/study/bitmips_experiments/lab5/teach_soc/teach_soc.srcs/sources_1/new/myCPU/pc.v:3]
+INFO: [Synth 8-6155] done synthesizing module 'pc' (1#1) [E:/study/bitmips_experiments/lab5/teach_soc/teach_soc.srcs/sources_1/new/myCPU/pc.v:3]
+INFO: [Synth 8-6157] synthesizing module 'jmpPause' [E:/study/bitmips_experiments/lab5/teach_soc/teach_soc.srcs/sources_1/new/myCPU/jmpPause.v:50]
+INFO: [Synth 8-6155] done synthesizing module 'jmpPause' (2#1) [E:/study/bitmips_experiments/lab5/teach_soc/teach_soc.srcs/sources_1/new/myCPU/jmpPause.v:50]
+INFO: [Synth 8-6157] synthesizing module 'instMem' [E:/study/bitmips_experiments/lab5/teach_soc/teach_soc.srcs/sources_1/new/myCPU/InstMem.v:3]
+WARNING: [Synth 8-3848] Net imem[255] in module/entity instMem does not have driver. [E:/study/bitmips_experiments/lab5/teach_soc/teach_soc.srcs/sources_1/new/myCPU/InstMem.v:10]
+WARNING: [Synth 8-3848] Net imem[254] in module/entity instMem does not have driver. [E:/study/bitmips_experiments/lab5/teach_soc/teach_soc.srcs/sources_1/new/myCPU/InstMem.v:10]
+WARNING: [Synth 8-3848] Net imem[253] in module/entity instMem does not have driver. [E:/study/bitmips_experiments/lab5/teach_soc/teach_soc.srcs/sources_1/new/myCPU/InstMem.v:10]
+WARNING: [Synth 8-3848] Net imem[252] in module/entity instMem does not have driver. [E:/study/bitmips_experiments/lab5/teach_soc/teach_soc.srcs/sources_1/new/myCPU/InstMem.v:10]
+WARNING: [Synth 8-3848] Net imem[251] in module/entity instMem does not have driver. [E:/study/bitmips_experiments/lab5/teach_soc/teach_soc.srcs/sources_1/new/myCPU/InstMem.v:10]
+WARNING: [Synth 8-3848] Net imem[250] in module/entity instMem does not have driver. [E:/study/bitmips_experiments/lab5/teach_soc/teach_soc.srcs/sources_1/new/myCPU/InstMem.v:10]
+WARNING: [Synth 8-3848] Net imem[249] in module/entity instMem does not have driver. [E:/study/bitmips_experiments/lab5/teach_soc/teach_soc.srcs/sources_1/new/myCPU/InstMem.v:10]
+WARNING: [Synth 8-3848] Net imem[248] in module/entity instMem does not have driver. [E:/study/bitmips_experiments/lab5/teach_soc/teach_soc.srcs/sources_1/new/myCPU/InstMem.v:10]
+WARNING: [Synth 8-3848] Net imem[247] in module/entity instMem does not have driver. [E:/study/bitmips_experiments/lab5/teach_soc/teach_soc.srcs/sources_1/new/myCPU/InstMem.v:10]
+WARNING: [Synth 8-3848] Net imem[246] in module/entity instMem does not have driver. [E:/study/bitmips_experiments/lab5/teach_soc/teach_soc.srcs/sources_1/new/myCPU/InstMem.v:10]
+WARNING: [Synth 8-3848] Net imem[245] in module/entity instMem does not have driver. [E:/study/bitmips_experiments/lab5/teach_soc/teach_soc.srcs/sources_1/new/myCPU/InstMem.v:10]
+WARNING: [Synth 8-3848] Net imem[244] in module/entity instMem does not have driver. [E:/study/bitmips_experiments/lab5/teach_soc/teach_soc.srcs/sources_1/new/myCPU/InstMem.v:10]
+WARNING: [Synth 8-3848] Net imem[243] in module/entity instMem does not have driver. [E:/study/bitmips_experiments/lab5/teach_soc/teach_soc.srcs/sources_1/new/myCPU/InstMem.v:10]
+WARNING: [Synth 8-3848] Net imem[242] in module/entity instMem does not have driver. [E:/study/bitmips_experiments/lab5/teach_soc/teach_soc.srcs/sources_1/new/myCPU/InstMem.v:10]
+WARNING: [Synth 8-3848] Net imem[241] in module/entity instMem does not have driver. [E:/study/bitmips_experiments/lab5/teach_soc/teach_soc.srcs/sources_1/new/myCPU/InstMem.v:10]
+WARNING: [Synth 8-3848] Net imem[240] in module/entity instMem does not have driver. [E:/study/bitmips_experiments/lab5/teach_soc/teach_soc.srcs/sources_1/new/myCPU/InstMem.v:10]
+WARNING: [Synth 8-3848] Net imem[239] in module/entity instMem does not have driver. [E:/study/bitmips_experiments/lab5/teach_soc/teach_soc.srcs/sources_1/new/myCPU/InstMem.v:10]
+WARNING: [Synth 8-3848] Net imem[238] in module/entity instMem does not have driver. [E:/study/bitmips_experiments/lab5/teach_soc/teach_soc.srcs/sources_1/new/myCPU/InstMem.v:10]
+WARNING: [Synth 8-3848] Net imem[237] in module/entity instMem does not have driver. [E:/study/bitmips_experiments/lab5/teach_soc/teach_soc.srcs/sources_1/new/myCPU/InstMem.v:10]
+WARNING: [Synth 8-3848] Net imem[236] in module/entity instMem does not have driver. [E:/study/bitmips_experiments/lab5/teach_soc/teach_soc.srcs/sources_1/new/myCPU/InstMem.v:10]
+WARNING: [Synth 8-3848] Net imem[235] in module/entity instMem does not have driver. [E:/study/bitmips_experiments/lab5/teach_soc/teach_soc.srcs/sources_1/new/myCPU/InstMem.v:10]
+WARNING: [Synth 8-3848] Net imem[234] in module/entity instMem does not have driver. [E:/study/bitmips_experiments/lab5/teach_soc/teach_soc.srcs/sources_1/new/myCPU/InstMem.v:10]
+WARNING: [Synth 8-3848] Net imem[233] in module/entity instMem does not have driver. [E:/study/bitmips_experiments/lab5/teach_soc/teach_soc.srcs/sources_1/new/myCPU/InstMem.v:10]
+WARNING: [Synth 8-3848] Net imem[232] in module/entity instMem does not have driver. [E:/study/bitmips_experiments/lab5/teach_soc/teach_soc.srcs/sources_1/new/myCPU/InstMem.v:10]
+WARNING: [Synth 8-3848] Net imem[231] in module/entity instMem does not have driver. [E:/study/bitmips_experiments/lab5/teach_soc/teach_soc.srcs/sources_1/new/myCPU/InstMem.v:10]
+WARNING: [Synth 8-3848] Net imem[230] in module/entity instMem does not have driver. [E:/study/bitmips_experiments/lab5/teach_soc/teach_soc.srcs/sources_1/new/myCPU/InstMem.v:10]
+WARNING: [Synth 8-3848] Net imem[229] in module/entity instMem does not have driver. [E:/study/bitmips_experiments/lab5/teach_soc/teach_soc.srcs/sources_1/new/myCPU/InstMem.v:10]
+WARNING: [Synth 8-3848] Net imem[228] in module/entity instMem does not have driver. [E:/study/bitmips_experiments/lab5/teach_soc/teach_soc.srcs/sources_1/new/myCPU/InstMem.v:10]
+WARNING: [Synth 8-3848] Net imem[227] in module/entity instMem does not have driver. [E:/study/bitmips_experiments/lab5/teach_soc/teach_soc.srcs/sources_1/new/myCPU/InstMem.v:10]
+WARNING: [Synth 8-3848] Net imem[226] in module/entity instMem does not have driver. [E:/study/bitmips_experiments/lab5/teach_soc/teach_soc.srcs/sources_1/new/myCPU/InstMem.v:10]
+WARNING: [Synth 8-3848] Net imem[225] in module/entity instMem does not have driver. [E:/study/bitmips_experiments/lab5/teach_soc/teach_soc.srcs/sources_1/new/myCPU/InstMem.v:10]
+WARNING: [Synth 8-3848] Net imem[224] in module/entity instMem does not have driver. [E:/study/bitmips_experiments/lab5/teach_soc/teach_soc.srcs/sources_1/new/myCPU/InstMem.v:10]
+WARNING: [Synth 8-3848] Net imem[223] in module/entity instMem does not have driver. [E:/study/bitmips_experiments/lab5/teach_soc/teach_soc.srcs/sources_1/new/myCPU/InstMem.v:10]
+WARNING: [Synth 8-3848] Net imem[222] in module/entity instMem does not have driver. [E:/study/bitmips_experiments/lab5/teach_soc/teach_soc.srcs/sources_1/new/myCPU/InstMem.v:10]
+WARNING: [Synth 8-3848] Net imem[221] in module/entity instMem does not have driver. [E:/study/bitmips_experiments/lab5/teach_soc/teach_soc.srcs/sources_1/new/myCPU/InstMem.v:10]
+WARNING: [Synth 8-3848] Net imem[220] in module/entity instMem does not have driver. [E:/study/bitmips_experiments/lab5/teach_soc/teach_soc.srcs/sources_1/new/myCPU/InstMem.v:10]
+WARNING: [Synth 8-3848] Net imem[219] in module/entity instMem does not have driver. [E:/study/bitmips_experiments/lab5/teach_soc/teach_soc.srcs/sources_1/new/myCPU/InstMem.v:10]
+WARNING: [Synth 8-3848] Net imem[218] in module/entity instMem does not have driver. [E:/study/bitmips_experiments/lab5/teach_soc/teach_soc.srcs/sources_1/new/myCPU/InstMem.v:10]
+WARNING: [Synth 8-3848] Net imem[217] in module/entity instMem does not have driver. [E:/study/bitmips_experiments/lab5/teach_soc/teach_soc.srcs/sources_1/new/myCPU/InstMem.v:10]
+WARNING: [Synth 8-3848] Net imem[216] in module/entity instMem does not have driver. [E:/study/bitmips_experiments/lab5/teach_soc/teach_soc.srcs/sources_1/new/myCPU/InstMem.v:10]
+WARNING: [Synth 8-3848] Net imem[215] in module/entity instMem does not have driver. [E:/study/bitmips_experiments/lab5/teach_soc/teach_soc.srcs/sources_1/new/myCPU/InstMem.v:10]
+WARNING: [Synth 8-3848] Net imem[214] in module/entity instMem does not have driver. [E:/study/bitmips_experiments/lab5/teach_soc/teach_soc.srcs/sources_1/new/myCPU/InstMem.v:10]
+WARNING: [Synth 8-3848] Net imem[213] in module/entity instMem does not have driver. [E:/study/bitmips_experiments/lab5/teach_soc/teach_soc.srcs/sources_1/new/myCPU/InstMem.v:10]
+WARNING: [Synth 8-3848] Net imem[212] in module/entity instMem does not have driver. [E:/study/bitmips_experiments/lab5/teach_soc/teach_soc.srcs/sources_1/new/myCPU/InstMem.v:10]
+WARNING: [Synth 8-3848] Net imem[211] in module/entity instMem does not have driver. [E:/study/bitmips_experiments/lab5/teach_soc/teach_soc.srcs/sources_1/new/myCPU/InstMem.v:10]
+WARNING: [Synth 8-3848] Net imem[210] in module/entity instMem does not have driver. [E:/study/bitmips_experiments/lab5/teach_soc/teach_soc.srcs/sources_1/new/myCPU/InstMem.v:10]
+WARNING: [Synth 8-3848] Net imem[209] in module/entity instMem does not have driver. [E:/study/bitmips_experiments/lab5/teach_soc/teach_soc.srcs/sources_1/new/myCPU/InstMem.v:10]
+WARNING: [Synth 8-3848] Net imem[208] in module/entity instMem does not have driver. [E:/study/bitmips_experiments/lab5/teach_soc/teach_soc.srcs/sources_1/new/myCPU/InstMem.v:10]
+WARNING: [Synth 8-3848] Net imem[207] in module/entity instMem does not have driver. [E:/study/bitmips_experiments/lab5/teach_soc/teach_soc.srcs/sources_1/new/myCPU/InstMem.v:10]
+WARNING: [Synth 8-3848] Net imem[206] in module/entity instMem does not have driver. [E:/study/bitmips_experiments/lab5/teach_soc/teach_soc.srcs/sources_1/new/myCPU/InstMem.v:10]
+WARNING: [Synth 8-3848] Net imem[205] in module/entity instMem does not have driver. [E:/study/bitmips_experiments/lab5/teach_soc/teach_soc.srcs/sources_1/new/myCPU/InstMem.v:10]
+WARNING: [Synth 8-3848] Net imem[204] in module/entity instMem does not have driver. [E:/study/bitmips_experiments/lab5/teach_soc/teach_soc.srcs/sources_1/new/myCPU/InstMem.v:10]
+WARNING: [Synth 8-3848] Net imem[203] in module/entity instMem does not have driver. [E:/study/bitmips_experiments/lab5/teach_soc/teach_soc.srcs/sources_1/new/myCPU/InstMem.v:10]
+WARNING: [Synth 8-3848] Net imem[202] in module/entity instMem does not have driver. [E:/study/bitmips_experiments/lab5/teach_soc/teach_soc.srcs/sources_1/new/myCPU/InstMem.v:10]
+WARNING: [Synth 8-3848] Net imem[201] in module/entity instMem does not have driver. [E:/study/bitmips_experiments/lab5/teach_soc/teach_soc.srcs/sources_1/new/myCPU/InstMem.v:10]
+WARNING: [Synth 8-3848] Net imem[200] in module/entity instMem does not have driver. [E:/study/bitmips_experiments/lab5/teach_soc/teach_soc.srcs/sources_1/new/myCPU/InstMem.v:10]
+WARNING: [Synth 8-3848] Net imem[199] in module/entity instMem does not have driver. [E:/study/bitmips_experiments/lab5/teach_soc/teach_soc.srcs/sources_1/new/myCPU/InstMem.v:10]
+WARNING: [Synth 8-3848] Net imem[198] in module/entity instMem does not have driver. [E:/study/bitmips_experiments/lab5/teach_soc/teach_soc.srcs/sources_1/new/myCPU/InstMem.v:10]
+WARNING: [Synth 8-3848] Net imem[197] in module/entity instMem does not have driver. [E:/study/bitmips_experiments/lab5/teach_soc/teach_soc.srcs/sources_1/new/myCPU/InstMem.v:10]
+WARNING: [Synth 8-3848] Net imem[196] in module/entity instMem does not have driver. [E:/study/bitmips_experiments/lab5/teach_soc/teach_soc.srcs/sources_1/new/myCPU/InstMem.v:10]
+WARNING: [Synth 8-3848] Net imem[195] in module/entity instMem does not have driver. [E:/study/bitmips_experiments/lab5/teach_soc/teach_soc.srcs/sources_1/new/myCPU/InstMem.v:10]
+WARNING: [Synth 8-3848] Net imem[194] in module/entity instMem does not have driver. [E:/study/bitmips_experiments/lab5/teach_soc/teach_soc.srcs/sources_1/new/myCPU/InstMem.v:10]
+WARNING: [Synth 8-3848] Net imem[193] in module/entity instMem does not have driver. [E:/study/bitmips_experiments/lab5/teach_soc/teach_soc.srcs/sources_1/new/myCPU/InstMem.v:10]
+WARNING: [Synth 8-3848] Net imem[192] in module/entity instMem does not have driver. [E:/study/bitmips_experiments/lab5/teach_soc/teach_soc.srcs/sources_1/new/myCPU/InstMem.v:10]
+WARNING: [Synth 8-3848] Net imem[191] in module/entity instMem does not have driver. [E:/study/bitmips_experiments/lab5/teach_soc/teach_soc.srcs/sources_1/new/myCPU/InstMem.v:10]
+WARNING: [Synth 8-3848] Net imem[190] in module/entity instMem does not have driver. [E:/study/bitmips_experiments/lab5/teach_soc/teach_soc.srcs/sources_1/new/myCPU/InstMem.v:10]
+WARNING: [Synth 8-3848] Net imem[189] in module/entity instMem does not have driver. [E:/study/bitmips_experiments/lab5/teach_soc/teach_soc.srcs/sources_1/new/myCPU/InstMem.v:10]
+WARNING: [Synth 8-3848] Net imem[188] in module/entity instMem does not have driver. [E:/study/bitmips_experiments/lab5/teach_soc/teach_soc.srcs/sources_1/new/myCPU/InstMem.v:10]
+WARNING: [Synth 8-3848] Net imem[187] in module/entity instMem does not have driver. [E:/study/bitmips_experiments/lab5/teach_soc/teach_soc.srcs/sources_1/new/myCPU/InstMem.v:10]
+WARNING: [Synth 8-3848] Net imem[186] in module/entity instMem does not have driver. [E:/study/bitmips_experiments/lab5/teach_soc/teach_soc.srcs/sources_1/new/myCPU/InstMem.v:10]
+WARNING: [Synth 8-3848] Net imem[185] in module/entity instMem does not have driver. [E:/study/bitmips_experiments/lab5/teach_soc/teach_soc.srcs/sources_1/new/myCPU/InstMem.v:10]
+WARNING: [Synth 8-3848] Net imem[184] in module/entity instMem does not have driver. [E:/study/bitmips_experiments/lab5/teach_soc/teach_soc.srcs/sources_1/new/myCPU/InstMem.v:10]
+WARNING: [Synth 8-3848] Net imem[183] in module/entity instMem does not have driver. [E:/study/bitmips_experiments/lab5/teach_soc/teach_soc.srcs/sources_1/new/myCPU/InstMem.v:10]
+WARNING: [Synth 8-3848] Net imem[182] in module/entity instMem does not have driver. [E:/study/bitmips_experiments/lab5/teach_soc/teach_soc.srcs/sources_1/new/myCPU/InstMem.v:10]
+WARNING: [Synth 8-3848] Net imem[181] in module/entity instMem does not have driver. [E:/study/bitmips_experiments/lab5/teach_soc/teach_soc.srcs/sources_1/new/myCPU/InstMem.v:10]
+WARNING: [Synth 8-3848] Net imem[180] in module/entity instMem does not have driver. [E:/study/bitmips_experiments/lab5/teach_soc/teach_soc.srcs/sources_1/new/myCPU/InstMem.v:10]
+WARNING: [Synth 8-3848] Net imem[179] in module/entity instMem does not have driver. [E:/study/bitmips_experiments/lab5/teach_soc/teach_soc.srcs/sources_1/new/myCPU/InstMem.v:10]
+WARNING: [Synth 8-3848] Net imem[178] in module/entity instMem does not have driver. [E:/study/bitmips_experiments/lab5/teach_soc/teach_soc.srcs/sources_1/new/myCPU/InstMem.v:10]
+WARNING: [Synth 8-3848] Net imem[177] in module/entity instMem does not have driver. [E:/study/bitmips_experiments/lab5/teach_soc/teach_soc.srcs/sources_1/new/myCPU/InstMem.v:10]
+WARNING: [Synth 8-3848] Net imem[176] in module/entity instMem does not have driver. [E:/study/bitmips_experiments/lab5/teach_soc/teach_soc.srcs/sources_1/new/myCPU/InstMem.v:10]
+WARNING: [Synth 8-3848] Net imem[175] in module/entity instMem does not have driver. [E:/study/bitmips_experiments/lab5/teach_soc/teach_soc.srcs/sources_1/new/myCPU/InstMem.v:10]
+WARNING: [Synth 8-3848] Net imem[174] in module/entity instMem does not have driver. [E:/study/bitmips_experiments/lab5/teach_soc/teach_soc.srcs/sources_1/new/myCPU/InstMem.v:10]
+WARNING: [Synth 8-3848] Net imem[173] in module/entity instMem does not have driver. [E:/study/bitmips_experiments/lab5/teach_soc/teach_soc.srcs/sources_1/new/myCPU/InstMem.v:10]
+WARNING: [Synth 8-3848] Net imem[172] in module/entity instMem does not have driver. [E:/study/bitmips_experiments/lab5/teach_soc/teach_soc.srcs/sources_1/new/myCPU/InstMem.v:10]
+WARNING: [Synth 8-3848] Net imem[171] in module/entity instMem does not have driver. [E:/study/bitmips_experiments/lab5/teach_soc/teach_soc.srcs/sources_1/new/myCPU/InstMem.v:10]
+WARNING: [Synth 8-3848] Net imem[170] in module/entity instMem does not have driver. [E:/study/bitmips_experiments/lab5/teach_soc/teach_soc.srcs/sources_1/new/myCPU/InstMem.v:10]
+WARNING: [Synth 8-3848] Net imem[169] in module/entity instMem does not have driver. [E:/study/bitmips_experiments/lab5/teach_soc/teach_soc.srcs/sources_1/new/myCPU/InstMem.v:10]
+WARNING: [Synth 8-3848] Net imem[168] in module/entity instMem does not have driver. [E:/study/bitmips_experiments/lab5/teach_soc/teach_soc.srcs/sources_1/new/myCPU/InstMem.v:10]
+WARNING: [Synth 8-3848] Net imem[167] in module/entity instMem does not have driver. [E:/study/bitmips_experiments/lab5/teach_soc/teach_soc.srcs/sources_1/new/myCPU/InstMem.v:10]
+WARNING: [Synth 8-3848] Net imem[166] in module/entity instMem does not have driver. [E:/study/bitmips_experiments/lab5/teach_soc/teach_soc.srcs/sources_1/new/myCPU/InstMem.v:10]
+WARNING: [Synth 8-3848] Net imem[165] in module/entity instMem does not have driver. [E:/study/bitmips_experiments/lab5/teach_soc/teach_soc.srcs/sources_1/new/myCPU/InstMem.v:10]
+WARNING: [Synth 8-3848] Net imem[164] in module/entity instMem does not have driver. [E:/study/bitmips_experiments/lab5/teach_soc/teach_soc.srcs/sources_1/new/myCPU/InstMem.v:10]
+WARNING: [Synth 8-3848] Net imem[163] in module/entity instMem does not have driver. [E:/study/bitmips_experiments/lab5/teach_soc/teach_soc.srcs/sources_1/new/myCPU/InstMem.v:10]
+WARNING: [Synth 8-3848] Net imem[162] in module/entity instMem does not have driver. [E:/study/bitmips_experiments/lab5/teach_soc/teach_soc.srcs/sources_1/new/myCPU/InstMem.v:10]
+WARNING: [Synth 8-3848] Net imem[161] in module/entity instMem does not have driver. [E:/study/bitmips_experiments/lab5/teach_soc/teach_soc.srcs/sources_1/new/myCPU/InstMem.v:10]
+WARNING: [Synth 8-3848] Net imem[160] in module/entity instMem does not have driver. [E:/study/bitmips_experiments/lab5/teach_soc/teach_soc.srcs/sources_1/new/myCPU/InstMem.v:10]
+WARNING: [Synth 8-3848] Net imem[159] in module/entity instMem does not have driver. [E:/study/bitmips_experiments/lab5/teach_soc/teach_soc.srcs/sources_1/new/myCPU/InstMem.v:10]
+WARNING: [Synth 8-3848] Net imem[158] in module/entity instMem does not have driver. [E:/study/bitmips_experiments/lab5/teach_soc/teach_soc.srcs/sources_1/new/myCPU/InstMem.v:10]
+WARNING: [Synth 8-3848] Net imem[157] in module/entity instMem does not have driver. [E:/study/bitmips_experiments/lab5/teach_soc/teach_soc.srcs/sources_1/new/myCPU/InstMem.v:10]
+WARNING: [Synth 8-3848] Net imem[156] in module/entity instMem does not have driver. [E:/study/bitmips_experiments/lab5/teach_soc/teach_soc.srcs/sources_1/new/myCPU/InstMem.v:10]
+INFO: [Common 17-14] Message 'Synth 8-3848' appears 100 times and further instances of the messages will be disabled. Use the Tcl command set_msg_config to change the current settings.
+INFO: [Synth 8-6155] done synthesizing module 'instMem' (3#1) [E:/study/bitmips_experiments/lab5/teach_soc/teach_soc.srcs/sources_1/new/myCPU/InstMem.v:3]
+WARNING: [Synth 8-6104] Input port 'inst_sram_rdata' has an internal driver [E:/study/bitmips_experiments/lab5/teach_soc/teach_soc.srcs/sources_1/new/myCPU/getInst.v:55]
+INFO: [Synth 8-6157] synthesizing module 'rawPause' [E:/study/bitmips_experiments/lab5/teach_soc/teach_soc.srcs/sources_1/new/myCPU/rawPause.v:80]
+INFO: [Synth 8-6155] done synthesizing module 'rawPause' (4#1) [E:/study/bitmips_experiments/lab5/teach_soc/teach_soc.srcs/sources_1/new/myCPU/rawPause.v:80]
+INFO: [Synth 8-6155] done synthesizing module 'getInst' (5#1) [E:/study/bitmips_experiments/lab5/teach_soc/teach_soc.srcs/sources_1/new/myCPU/getInst.v:3]
+INFO: [Synth 8-6157] synthesizing module 'blockA' [E:/study/bitmips_experiments/lab5/teach_soc/teach_soc.srcs/sources_1/new/myCPU/blockA.v:3]
+WARNING: [Synth 8-5788] Register _PCPlus_reg in module blockA is has both Set and reset with same priority. This may cause simulation mismatches. Consider rewriting code  [E:/study/bitmips_experiments/lab5/teach_soc/teach_soc.srcs/sources_1/new/myCPU/blockA.v:19]
+WARNING: [Synth 8-5788] Register _inst_reg in module blockA is has both Set and reset with same priority. This may cause simulation mismatches. Consider rewriting code  [E:/study/bitmips_experiments/lab5/teach_soc/teach_soc.srcs/sources_1/new/myCPU/blockA.v:20]
+INFO: [Synth 8-6155] done synthesizing module 'blockA' (6#1) [E:/study/bitmips_experiments/lab5/teach_soc/teach_soc.srcs/sources_1/new/myCPU/blockA.v:3]
+INFO: [Synth 8-6157] synthesizing module 'control' [E:/study/bitmips_experiments/lab5/teach_soc/teach_soc.srcs/sources_1/new/myCPU/control.v:23]
+INFO: [Synth 8-6155] done synthesizing module 'control' (7#1) [E:/study/bitmips_experiments/lab5/teach_soc/teach_soc.srcs/sources_1/new/myCPU/control.v:23]
+INFO: [Synth 8-6157] synthesizing module 'register_heap' [E:/study/bitmips_experiments/lab5/teach_soc/teach_soc.srcs/sources_1/new/myCPU/register_heap.v:3]
+INFO: [Synth 8-6155] done synthesizing module 'register_heap' (8#1) [E:/study/bitmips_experiments/lab5/teach_soc/teach_soc.srcs/sources_1/new/myCPU/register_heap.v:3]
+INFO: [Synth 8-6157] synthesizing module 'signExtend' [E:/study/bitmips_experiments/lab5/teach_soc/teach_soc.srcs/sources_1/new/myCPU/signExtend.v:3]
+INFO: [Synth 8-6155] done synthesizing module 'signExtend' (9#1) [E:/study/bitmips_experiments/lab5/teach_soc/teach_soc.srcs/sources_1/new/myCPU/signExtend.v:3]
+INFO: [Synth 8-6157] synthesizing module 'blockB' [E:/study/bitmips_experiments/lab5/teach_soc/teach_soc.srcs/sources_1/new/myCPU/blockB.v:3]
+INFO: [Synth 8-6155] done synthesizing module 'blockB' (10#1) [E:/study/bitmips_experiments/lab5/teach_soc/teach_soc.srcs/sources_1/new/myCPU/blockB.v:3]
+INFO: [Synth 8-6157] synthesizing module 'alu' [E:/study/bitmips_experiments/lab5/teach_soc/teach_soc.srcs/sources_1/new/myCPU/alu.v:5]
+INFO: [Synth 8-6155] done synthesizing module 'alu' (11#1) [E:/study/bitmips_experiments/lab5/teach_soc/teach_soc.srcs/sources_1/new/myCPU/alu.v:5]
+INFO: [Synth 8-6157] synthesizing module 'brUnit' [E:/study/bitmips_experiments/lab5/teach_soc/teach_soc.srcs/sources_1/new/myCPU/brUnit.v:3]
+INFO: [Synth 8-6155] done synthesizing module 'brUnit' (12#1) [E:/study/bitmips_experiments/lab5/teach_soc/teach_soc.srcs/sources_1/new/myCPU/brUnit.v:3]
+INFO: [Synth 8-6157] synthesizing module 'blockC' [E:/study/bitmips_experiments/lab5/teach_soc/teach_soc.srcs/sources_1/new/myCPU/blockC.v:3]
+INFO: [Synth 8-6155] done synthesizing module 'blockC' (13#1) [E:/study/bitmips_experiments/lab5/teach_soc/teach_soc.srcs/sources_1/new/myCPU/blockC.v:3]
+INFO: [Synth 8-6157] synthesizing module 'led_show_num' [E:/study/bitmips_experiments/lab5/teach_soc/teach_soc.srcs/sources_1/bd/led_show_num/synth/led_show_num.v:13]
+INFO: [Synth 8-6157] synthesizing module 'led_show_num_led_num_0_0' [E:/study/bitmips_experiments/lab5/teach_soc/teach_soc.runs/synth_1/.Xil/Vivado-17552-hgyPC/realtime/led_show_num_led_num_0_0_stub.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'led_show_num_led_num_0_0' (14#1) [E:/study/bitmips_experiments/lab5/teach_soc/teach_soc.runs/synth_1/.Xil/Vivado-17552-hgyPC/realtime/led_show_num_led_num_0_0_stub.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'led_show_num' (15#1) [E:/study/bitmips_experiments/lab5/teach_soc/teach_soc.srcs/sources_1/bd/led_show_num/synth/led_show_num.v:13]
+INFO: [Synth 8-6157] synthesizing module 'dataMem' [E:/study/bitmips_experiments/lab5/teach_soc/teach_soc.srcs/sources_1/new/myCPU/dataMem.v:3]
+WARNING: [Synth 8-5788] Register dmem_reg[255] in module dataMem is has both Set and reset with same priority. This may cause simulation mismatches. Consider rewriting code  [E:/study/bitmips_experiments/lab5/teach_soc/teach_soc.srcs/sources_1/new/myCPU/dataMem.v:21]
+WARNING: [Synth 8-5788] Register dmem_reg[254] in module dataMem is has both Set and reset with same priority. This may cause simulation mismatches. Consider rewriting code  [E:/study/bitmips_experiments/lab5/teach_soc/teach_soc.srcs/sources_1/new/myCPU/dataMem.v:21]
+WARNING: [Synth 8-5788] Register dmem_reg[253] in module dataMem is has both Set and reset with same priority. This may cause simulation mismatches. Consider rewriting code  [E:/study/bitmips_experiments/lab5/teach_soc/teach_soc.srcs/sources_1/new/myCPU/dataMem.v:21]
+WARNING: [Synth 8-5788] Register dmem_reg[252] in module dataMem is has both Set and reset with same priority. This may cause simulation mismatches. Consider rewriting code  [E:/study/bitmips_experiments/lab5/teach_soc/teach_soc.srcs/sources_1/new/myCPU/dataMem.v:21]
+WARNING: [Synth 8-5788] Register dmem_reg[251] in module dataMem is has both Set and reset with same priority. This may cause simulation mismatches. Consider rewriting code  [E:/study/bitmips_experiments/lab5/teach_soc/teach_soc.srcs/sources_1/new/myCPU/dataMem.v:21]
+WARNING: [Synth 8-5788] Register dmem_reg[250] in module dataMem is has both Set and reset with same priority. This may cause simulation mismatches. Consider rewriting code  [E:/study/bitmips_experiments/lab5/teach_soc/teach_soc.srcs/sources_1/new/myCPU/dataMem.v:21]
+WARNING: [Synth 8-5788] Register dmem_reg[249] in module dataMem is has both Set and reset with same priority. This may cause simulation mismatches. Consider rewriting code  [E:/study/bitmips_experiments/lab5/teach_soc/teach_soc.srcs/sources_1/new/myCPU/dataMem.v:21]
+WARNING: [Synth 8-5788] Register dmem_reg[248] in module dataMem is has both Set and reset with same priority. This may cause simulation mismatches. Consider rewriting code  [E:/study/bitmips_experiments/lab5/teach_soc/teach_soc.srcs/sources_1/new/myCPU/dataMem.v:21]
+WARNING: [Synth 8-5788] Register dmem_reg[247] in module dataMem is has both Set and reset with same priority. This may cause simulation mismatches. Consider rewriting code  [E:/study/bitmips_experiments/lab5/teach_soc/teach_soc.srcs/sources_1/new/myCPU/dataMem.v:21]
+WARNING: [Synth 8-5788] Register dmem_reg[246] in module dataMem is has both Set and reset with same priority. This may cause simulation mismatches. Consider rewriting code  [E:/study/bitmips_experiments/lab5/teach_soc/teach_soc.srcs/sources_1/new/myCPU/dataMem.v:21]
+WARNING: [Synth 8-5788] Register dmem_reg[245] in module dataMem is has both Set and reset with same priority. This may cause simulation mismatches. Consider rewriting code  [E:/study/bitmips_experiments/lab5/teach_soc/teach_soc.srcs/sources_1/new/myCPU/dataMem.v:21]
+WARNING: [Synth 8-5788] Register dmem_reg[244] in module dataMem is has both Set and reset with same priority. This may cause simulation mismatches. Consider rewriting code  [E:/study/bitmips_experiments/lab5/teach_soc/teach_soc.srcs/sources_1/new/myCPU/dataMem.v:21]
+WARNING: [Synth 8-5788] Register dmem_reg[243] in module dataMem is has both Set and reset with same priority. This may cause simulation mismatches. Consider rewriting code  [E:/study/bitmips_experiments/lab5/teach_soc/teach_soc.srcs/sources_1/new/myCPU/dataMem.v:21]
+WARNING: [Synth 8-5788] Register dmem_reg[242] in module dataMem is has both Set and reset with same priority. This may cause simulation mismatches. Consider rewriting code  [E:/study/bitmips_experiments/lab5/teach_soc/teach_soc.srcs/sources_1/new/myCPU/dataMem.v:21]
+WARNING: [Synth 8-5788] Register dmem_reg[241] in module dataMem is has both Set and reset with same priority. This may cause simulation mismatches. Consider rewriting code  [E:/study/bitmips_experiments/lab5/teach_soc/teach_soc.srcs/sources_1/new/myCPU/dataMem.v:21]
+WARNING: [Synth 8-5788] Register dmem_reg[240] in module dataMem is has both Set and reset with same priority. This may cause simulation mismatches. Consider rewriting code  [E:/study/bitmips_experiments/lab5/teach_soc/teach_soc.srcs/sources_1/new/myCPU/dataMem.v:21]
+WARNING: [Synth 8-5788] Register dmem_reg[239] in module dataMem is has both Set and reset with same priority. This may cause simulation mismatches. Consider rewriting code  [E:/study/bitmips_experiments/lab5/teach_soc/teach_soc.srcs/sources_1/new/myCPU/dataMem.v:21]
+WARNING: [Synth 8-5788] Register dmem_reg[238] in module dataMem is has both Set and reset with same priority. This may cause simulation mismatches. Consider rewriting code  [E:/study/bitmips_experiments/lab5/teach_soc/teach_soc.srcs/sources_1/new/myCPU/dataMem.v:21]
+WARNING: [Synth 8-5788] Register dmem_reg[237] in module dataMem is has both Set and reset with same priority. This may cause simulation mismatches. Consider rewriting code  [E:/study/bitmips_experiments/lab5/teach_soc/teach_soc.srcs/sources_1/new/myCPU/dataMem.v:21]
+WARNING: [Synth 8-5788] Register dmem_reg[236] in module dataMem is has both Set and reset with same priority. This may cause simulation mismatches. Consider rewriting code  [E:/study/bitmips_experiments/lab5/teach_soc/teach_soc.srcs/sources_1/new/myCPU/dataMem.v:21]
+WARNING: [Synth 8-5788] Register dmem_reg[235] in module dataMem is has both Set and reset with same priority. This may cause simulation mismatches. Consider rewriting code  [E:/study/bitmips_experiments/lab5/teach_soc/teach_soc.srcs/sources_1/new/myCPU/dataMem.v:21]
+WARNING: [Synth 8-5788] Register dmem_reg[234] in module dataMem is has both Set and reset with same priority. This may cause simulation mismatches. Consider rewriting code  [E:/study/bitmips_experiments/lab5/teach_soc/teach_soc.srcs/sources_1/new/myCPU/dataMem.v:21]
+WARNING: [Synth 8-5788] Register dmem_reg[233] in module dataMem is has both Set and reset with same priority. This may cause simulation mismatches. Consider rewriting code  [E:/study/bitmips_experiments/lab5/teach_soc/teach_soc.srcs/sources_1/new/myCPU/dataMem.v:21]
+WARNING: [Synth 8-5788] Register dmem_reg[232] in module dataMem is has both Set and reset with same priority. This may cause simulation mismatches. Consider rewriting code  [E:/study/bitmips_experiments/lab5/teach_soc/teach_soc.srcs/sources_1/new/myCPU/dataMem.v:21]
+WARNING: [Synth 8-5788] Register dmem_reg[231] in module dataMem is has both Set and reset with same priority. This may cause simulation mismatches. Consider rewriting code  [E:/study/bitmips_experiments/lab5/teach_soc/teach_soc.srcs/sources_1/new/myCPU/dataMem.v:21]
+WARNING: [Synth 8-5788] Register dmem_reg[230] in module dataMem is has both Set and reset with same priority. This may cause simulation mismatches. Consider rewriting code  [E:/study/bitmips_experiments/lab5/teach_soc/teach_soc.srcs/sources_1/new/myCPU/dataMem.v:21]
+WARNING: [Synth 8-5788] Register dmem_reg[229] in module dataMem is has both Set and reset with same priority. This may cause simulation mismatches. Consider rewriting code  [E:/study/bitmips_experiments/lab5/teach_soc/teach_soc.srcs/sources_1/new/myCPU/dataMem.v:21]
+WARNING: [Synth 8-5788] Register dmem_reg[228] in module dataMem is has both Set and reset with same priority. This may cause simulation mismatches. Consider rewriting code  [E:/study/bitmips_experiments/lab5/teach_soc/teach_soc.srcs/sources_1/new/myCPU/dataMem.v:21]
+WARNING: [Synth 8-5788] Register dmem_reg[227] in module dataMem is has both Set and reset with same priority. This may cause simulation mismatches. Consider rewriting code  [E:/study/bitmips_experiments/lab5/teach_soc/teach_soc.srcs/sources_1/new/myCPU/dataMem.v:21]
+WARNING: [Synth 8-5788] Register dmem_reg[226] in module dataMem is has both Set and reset with same priority. This may cause simulation mismatches. Consider rewriting code  [E:/study/bitmips_experiments/lab5/teach_soc/teach_soc.srcs/sources_1/new/myCPU/dataMem.v:21]
+WARNING: [Synth 8-5788] Register dmem_reg[225] in module dataMem is has both Set and reset with same priority. This may cause simulation mismatches. Consider rewriting code  [E:/study/bitmips_experiments/lab5/teach_soc/teach_soc.srcs/sources_1/new/myCPU/dataMem.v:21]
+WARNING: [Synth 8-5788] Register dmem_reg[224] in module dataMem is has both Set and reset with same priority. This may cause simulation mismatches. Consider rewriting code  [E:/study/bitmips_experiments/lab5/teach_soc/teach_soc.srcs/sources_1/new/myCPU/dataMem.v:21]
+WARNING: [Synth 8-5788] Register dmem_reg[223] in module dataMem is has both Set and reset with same priority. This may cause simulation mismatches. Consider rewriting code  [E:/study/bitmips_experiments/lab5/teach_soc/teach_soc.srcs/sources_1/new/myCPU/dataMem.v:21]
+WARNING: [Synth 8-5788] Register dmem_reg[222] in module dataMem is has both Set and reset with same priority. This may cause simulation mismatches. Consider rewriting code  [E:/study/bitmips_experiments/lab5/teach_soc/teach_soc.srcs/sources_1/new/myCPU/dataMem.v:21]
+WARNING: [Synth 8-5788] Register dmem_reg[221] in module dataMem is has both Set and reset with same priority. This may cause simulation mismatches. Consider rewriting code  [E:/study/bitmips_experiments/lab5/teach_soc/teach_soc.srcs/sources_1/new/myCPU/dataMem.v:21]
+WARNING: [Synth 8-5788] Register dmem_reg[220] in module dataMem is has both Set and reset with same priority. This may cause simulation mismatches. Consider rewriting code  [E:/study/bitmips_experiments/lab5/teach_soc/teach_soc.srcs/sources_1/new/myCPU/dataMem.v:21]
+WARNING: [Synth 8-5788] Register dmem_reg[219] in module dataMem is has both Set and reset with same priority. This may cause simulation mismatches. Consider rewriting code  [E:/study/bitmips_experiments/lab5/teach_soc/teach_soc.srcs/sources_1/new/myCPU/dataMem.v:21]
+WARNING: [Synth 8-5788] Register dmem_reg[218] in module dataMem is has both Set and reset with same priority. This may cause simulation mismatches. Consider rewriting code  [E:/study/bitmips_experiments/lab5/teach_soc/teach_soc.srcs/sources_1/new/myCPU/dataMem.v:21]
+WARNING: [Synth 8-5788] Register dmem_reg[217] in module dataMem is has both Set and reset with same priority. This may cause simulation mismatches. Consider rewriting code  [E:/study/bitmips_experiments/lab5/teach_soc/teach_soc.srcs/sources_1/new/myCPU/dataMem.v:21]
+WARNING: [Synth 8-5788] Register dmem_reg[216] in module dataMem is has both Set and reset with same priority. This may cause simulation mismatches. Consider rewriting code  [E:/study/bitmips_experiments/lab5/teach_soc/teach_soc.srcs/sources_1/new/myCPU/dataMem.v:21]
+WARNING: [Synth 8-5788] Register dmem_reg[215] in module dataMem is has both Set and reset with same priority. This may cause simulation mismatches. Consider rewriting code  [E:/study/bitmips_experiments/lab5/teach_soc/teach_soc.srcs/sources_1/new/myCPU/dataMem.v:21]
+WARNING: [Synth 8-5788] Register dmem_reg[214] in module dataMem is has both Set and reset with same priority. This may cause simulation mismatches. Consider rewriting code  [E:/study/bitmips_experiments/lab5/teach_soc/teach_soc.srcs/sources_1/new/myCPU/dataMem.v:21]
+WARNING: [Synth 8-5788] Register dmem_reg[213] in module dataMem is has both Set and reset with same priority. This may cause simulation mismatches. Consider rewriting code  [E:/study/bitmips_experiments/lab5/teach_soc/teach_soc.srcs/sources_1/new/myCPU/dataMem.v:21]
+WARNING: [Synth 8-5788] Register dmem_reg[212] in module dataMem is has both Set and reset with same priority. This may cause simulation mismatches. Consider rewriting code  [E:/study/bitmips_experiments/lab5/teach_soc/teach_soc.srcs/sources_1/new/myCPU/dataMem.v:21]
+WARNING: [Synth 8-5788] Register dmem_reg[211] in module dataMem is has both Set and reset with same priority. This may cause simulation mismatches. Consider rewriting code  [E:/study/bitmips_experiments/lab5/teach_soc/teach_soc.srcs/sources_1/new/myCPU/dataMem.v:21]
+WARNING: [Synth 8-5788] Register dmem_reg[210] in module dataMem is has both Set and reset with same priority. This may cause simulation mismatches. Consider rewriting code  [E:/study/bitmips_experiments/lab5/teach_soc/teach_soc.srcs/sources_1/new/myCPU/dataMem.v:21]
+WARNING: [Synth 8-5788] Register dmem_reg[209] in module dataMem is has both Set and reset with same priority. This may cause simulation mismatches. Consider rewriting code  [E:/study/bitmips_experiments/lab5/teach_soc/teach_soc.srcs/sources_1/new/myCPU/dataMem.v:21]
+WARNING: [Synth 8-5788] Register dmem_reg[208] in module dataMem is has both Set and reset with same priority. This may cause simulation mismatches. Consider rewriting code  [E:/study/bitmips_experiments/lab5/teach_soc/teach_soc.srcs/sources_1/new/myCPU/dataMem.v:21]
+WARNING: [Synth 8-5788] Register dmem_reg[207] in module dataMem is has both Set and reset with same priority. This may cause simulation mismatches. Consider rewriting code  [E:/study/bitmips_experiments/lab5/teach_soc/teach_soc.srcs/sources_1/new/myCPU/dataMem.v:21]
+WARNING: [Synth 8-5788] Register dmem_reg[206] in module dataMem is has both Set and reset with same priority. This may cause simulation mismatches. Consider rewriting code  [E:/study/bitmips_experiments/lab5/teach_soc/teach_soc.srcs/sources_1/new/myCPU/dataMem.v:21]
+WARNING: [Synth 8-5788] Register dmem_reg[205] in module dataMem is has both Set and reset with same priority. This may cause simulation mismatches. Consider rewriting code  [E:/study/bitmips_experiments/lab5/teach_soc/teach_soc.srcs/sources_1/new/myCPU/dataMem.v:21]
+WARNING: [Synth 8-5788] Register dmem_reg[204] in module dataMem is has both Set and reset with same priority. This may cause simulation mismatches. Consider rewriting code  [E:/study/bitmips_experiments/lab5/teach_soc/teach_soc.srcs/sources_1/new/myCPU/dataMem.v:21]
+WARNING: [Synth 8-5788] Register dmem_reg[203] in module dataMem is has both Set and reset with same priority. This may cause simulation mismatches. Consider rewriting code  [E:/study/bitmips_experiments/lab5/teach_soc/teach_soc.srcs/sources_1/new/myCPU/dataMem.v:21]
+WARNING: [Synth 8-5788] Register dmem_reg[202] in module dataMem is has both Set and reset with same priority. This may cause simulation mismatches. Consider rewriting code  [E:/study/bitmips_experiments/lab5/teach_soc/teach_soc.srcs/sources_1/new/myCPU/dataMem.v:21]
+WARNING: [Synth 8-5788] Register dmem_reg[201] in module dataMem is has both Set and reset with same priority. This may cause simulation mismatches. Consider rewriting code  [E:/study/bitmips_experiments/lab5/teach_soc/teach_soc.srcs/sources_1/new/myCPU/dataMem.v:21]
+WARNING: [Synth 8-5788] Register dmem_reg[200] in module dataMem is has both Set and reset with same priority. This may cause simulation mismatches. Consider rewriting code  [E:/study/bitmips_experiments/lab5/teach_soc/teach_soc.srcs/sources_1/new/myCPU/dataMem.v:21]
+WARNING: [Synth 8-5788] Register dmem_reg[199] in module dataMem is has both Set and reset with same priority. This may cause simulation mismatches. Consider rewriting code  [E:/study/bitmips_experiments/lab5/teach_soc/teach_soc.srcs/sources_1/new/myCPU/dataMem.v:21]
+WARNING: [Synth 8-5788] Register dmem_reg[198] in module dataMem is has both Set and reset with same priority. This may cause simulation mismatches. Consider rewriting code  [E:/study/bitmips_experiments/lab5/teach_soc/teach_soc.srcs/sources_1/new/myCPU/dataMem.v:21]
+WARNING: [Synth 8-5788] Register dmem_reg[197] in module dataMem is has both Set and reset with same priority. This may cause simulation mismatches. Consider rewriting code  [E:/study/bitmips_experiments/lab5/teach_soc/teach_soc.srcs/sources_1/new/myCPU/dataMem.v:21]
+WARNING: [Synth 8-5788] Register dmem_reg[196] in module dataMem is has both Set and reset with same priority. This may cause simulation mismatches. Consider rewriting code  [E:/study/bitmips_experiments/lab5/teach_soc/teach_soc.srcs/sources_1/new/myCPU/dataMem.v:21]
+WARNING: [Synth 8-5788] Register dmem_reg[195] in module dataMem is has both Set and reset with same priority. This may cause simulation mismatches. Consider rewriting code  [E:/study/bitmips_experiments/lab5/teach_soc/teach_soc.srcs/sources_1/new/myCPU/dataMem.v:21]
+WARNING: [Synth 8-5788] Register dmem_reg[194] in module dataMem is has both Set and reset with same priority. This may cause simulation mismatches. Consider rewriting code  [E:/study/bitmips_experiments/lab5/teach_soc/teach_soc.srcs/sources_1/new/myCPU/dataMem.v:21]
+WARNING: [Synth 8-5788] Register dmem_reg[193] in module dataMem is has both Set and reset with same priority. This may cause simulation mismatches. Consider rewriting code  [E:/study/bitmips_experiments/lab5/teach_soc/teach_soc.srcs/sources_1/new/myCPU/dataMem.v:21]
+WARNING: [Synth 8-5788] Register dmem_reg[192] in module dataMem is has both Set and reset with same priority. This may cause simulation mismatches. Consider rewriting code  [E:/study/bitmips_experiments/lab5/teach_soc/teach_soc.srcs/sources_1/new/myCPU/dataMem.v:21]
+WARNING: [Synth 8-5788] Register dmem_reg[191] in module dataMem is has both Set and reset with same priority. This may cause simulation mismatches. Consider rewriting code  [E:/study/bitmips_experiments/lab5/teach_soc/teach_soc.srcs/sources_1/new/myCPU/dataMem.v:21]
+WARNING: [Synth 8-5788] Register dmem_reg[190] in module dataMem is has both Set and reset with same priority. This may cause simulation mismatches. Consider rewriting code  [E:/study/bitmips_experiments/lab5/teach_soc/teach_soc.srcs/sources_1/new/myCPU/dataMem.v:21]
+WARNING: [Synth 8-5788] Register dmem_reg[189] in module dataMem is has both Set and reset with same priority. This may cause simulation mismatches. Consider rewriting code  [E:/study/bitmips_experiments/lab5/teach_soc/teach_soc.srcs/sources_1/new/myCPU/dataMem.v:21]
+WARNING: [Synth 8-5788] Register dmem_reg[188] in module dataMem is has both Set and reset with same priority. This may cause simulation mismatches. Consider rewriting code  [E:/study/bitmips_experiments/lab5/teach_soc/teach_soc.srcs/sources_1/new/myCPU/dataMem.v:21]
+WARNING: [Synth 8-5788] Register dmem_reg[187] in module dataMem is has both Set and reset with same priority. This may cause simulation mismatches. Consider rewriting code  [E:/study/bitmips_experiments/lab5/teach_soc/teach_soc.srcs/sources_1/new/myCPU/dataMem.v:21]
+WARNING: [Synth 8-5788] Register dmem_reg[186] in module dataMem is has both Set and reset with same priority. This may cause simulation mismatches. Consider rewriting code  [E:/study/bitmips_experiments/lab5/teach_soc/teach_soc.srcs/sources_1/new/myCPU/dataMem.v:21]
+WARNING: [Synth 8-5788] Register dmem_reg[185] in module dataMem is has both Set and reset with same priority. This may cause simulation mismatches. Consider rewriting code  [E:/study/bitmips_experiments/lab5/teach_soc/teach_soc.srcs/sources_1/new/myCPU/dataMem.v:21]
+WARNING: [Synth 8-5788] Register dmem_reg[184] in module dataMem is has both Set and reset with same priority. This may cause simulation mismatches. Consider rewriting code  [E:/study/bitmips_experiments/lab5/teach_soc/teach_soc.srcs/sources_1/new/myCPU/dataMem.v:21]
+WARNING: [Synth 8-5788] Register dmem_reg[183] in module dataMem is has both Set and reset with same priority. This may cause simulation mismatches. Consider rewriting code  [E:/study/bitmips_experiments/lab5/teach_soc/teach_soc.srcs/sources_1/new/myCPU/dataMem.v:21]
+WARNING: [Synth 8-5788] Register dmem_reg[182] in module dataMem is has both Set and reset with same priority. This may cause simulation mismatches. Consider rewriting code  [E:/study/bitmips_experiments/lab5/teach_soc/teach_soc.srcs/sources_1/new/myCPU/dataMem.v:21]
+WARNING: [Synth 8-5788] Register dmem_reg[181] in module dataMem is has both Set and reset with same priority. This may cause simulation mismatches. Consider rewriting code  [E:/study/bitmips_experiments/lab5/teach_soc/teach_soc.srcs/sources_1/new/myCPU/dataMem.v:21]
+WARNING: [Synth 8-5788] Register dmem_reg[180] in module dataMem is has both Set and reset with same priority. This may cause simulation mismatches. Consider rewriting code  [E:/study/bitmips_experiments/lab5/teach_soc/teach_soc.srcs/sources_1/new/myCPU/dataMem.v:21]
+WARNING: [Synth 8-5788] Register dmem_reg[179] in module dataMem is has both Set and reset with same priority. This may cause simulation mismatches. Consider rewriting code  [E:/study/bitmips_experiments/lab5/teach_soc/teach_soc.srcs/sources_1/new/myCPU/dataMem.v:21]
+WARNING: [Synth 8-5788] Register dmem_reg[178] in module dataMem is has both Set and reset with same priority. This may cause simulation mismatches. Consider rewriting code  [E:/study/bitmips_experiments/lab5/teach_soc/teach_soc.srcs/sources_1/new/myCPU/dataMem.v:21]
+WARNING: [Synth 8-5788] Register dmem_reg[177] in module dataMem is has both Set and reset with same priority. This may cause simulation mismatches. Consider rewriting code  [E:/study/bitmips_experiments/lab5/teach_soc/teach_soc.srcs/sources_1/new/myCPU/dataMem.v:21]
+WARNING: [Synth 8-5788] Register dmem_reg[176] in module dataMem is has both Set and reset with same priority. This may cause simulation mismatches. Consider rewriting code  [E:/study/bitmips_experiments/lab5/teach_soc/teach_soc.srcs/sources_1/new/myCPU/dataMem.v:21]
+WARNING: [Synth 8-5788] Register dmem_reg[175] in module dataMem is has both Set and reset with same priority. This may cause simulation mismatches. Consider rewriting code  [E:/study/bitmips_experiments/lab5/teach_soc/teach_soc.srcs/sources_1/new/myCPU/dataMem.v:21]
+WARNING: [Synth 8-5788] Register dmem_reg[174] in module dataMem is has both Set and reset with same priority. This may cause simulation mismatches. Consider rewriting code  [E:/study/bitmips_experiments/lab5/teach_soc/teach_soc.srcs/sources_1/new/myCPU/dataMem.v:21]
+WARNING: [Synth 8-5788] Register dmem_reg[173] in module dataMem is has both Set and reset with same priority. This may cause simulation mismatches. Consider rewriting code  [E:/study/bitmips_experiments/lab5/teach_soc/teach_soc.srcs/sources_1/new/myCPU/dataMem.v:21]
+WARNING: [Synth 8-5788] Register dmem_reg[172] in module dataMem is has both Set and reset with same priority. This may cause simulation mismatches. Consider rewriting code  [E:/study/bitmips_experiments/lab5/teach_soc/teach_soc.srcs/sources_1/new/myCPU/dataMem.v:21]
+WARNING: [Synth 8-5788] Register dmem_reg[171] in module dataMem is has both Set and reset with same priority. This may cause simulation mismatches. Consider rewriting code  [E:/study/bitmips_experiments/lab5/teach_soc/teach_soc.srcs/sources_1/new/myCPU/dataMem.v:21]
+WARNING: [Synth 8-5788] Register dmem_reg[170] in module dataMem is has both Set and reset with same priority. This may cause simulation mismatches. Consider rewriting code  [E:/study/bitmips_experiments/lab5/teach_soc/teach_soc.srcs/sources_1/new/myCPU/dataMem.v:21]
+WARNING: [Synth 8-5788] Register dmem_reg[169] in module dataMem is has both Set and reset with same priority. This may cause simulation mismatches. Consider rewriting code  [E:/study/bitmips_experiments/lab5/teach_soc/teach_soc.srcs/sources_1/new/myCPU/dataMem.v:21]
+WARNING: [Synth 8-5788] Register dmem_reg[168] in module dataMem is has both Set and reset with same priority. This may cause simulation mismatches. Consider rewriting code  [E:/study/bitmips_experiments/lab5/teach_soc/teach_soc.srcs/sources_1/new/myCPU/dataMem.v:21]
+WARNING: [Synth 8-5788] Register dmem_reg[167] in module dataMem is has both Set and reset with same priority. This may cause simulation mismatches. Consider rewriting code  [E:/study/bitmips_experiments/lab5/teach_soc/teach_soc.srcs/sources_1/new/myCPU/dataMem.v:21]
+WARNING: [Synth 8-5788] Register dmem_reg[166] in module dataMem is has both Set and reset with same priority. This may cause simulation mismatches. Consider rewriting code  [E:/study/bitmips_experiments/lab5/teach_soc/teach_soc.srcs/sources_1/new/myCPU/dataMem.v:21]
+WARNING: [Synth 8-5788] Register dmem_reg[165] in module dataMem is has both Set and reset with same priority. This may cause simulation mismatches. Consider rewriting code  [E:/study/bitmips_experiments/lab5/teach_soc/teach_soc.srcs/sources_1/new/myCPU/dataMem.v:21]
+WARNING: [Synth 8-5788] Register dmem_reg[164] in module dataMem is has both Set and reset with same priority. This may cause simulation mismatches. Consider rewriting code  [E:/study/bitmips_experiments/lab5/teach_soc/teach_soc.srcs/sources_1/new/myCPU/dataMem.v:21]
+WARNING: [Synth 8-5788] Register dmem_reg[163] in module dataMem is has both Set and reset with same priority. This may cause simulation mismatches. Consider rewriting code  [E:/study/bitmips_experiments/lab5/teach_soc/teach_soc.srcs/sources_1/new/myCPU/dataMem.v:21]
+WARNING: [Synth 8-5788] Register dmem_reg[162] in module dataMem is has both Set and reset with same priority. This may cause simulation mismatches. Consider rewriting code  [E:/study/bitmips_experiments/lab5/teach_soc/teach_soc.srcs/sources_1/new/myCPU/dataMem.v:21]
+WARNING: [Synth 8-5788] Register dmem_reg[161] in module dataMem is has both Set and reset with same priority. This may cause simulation mismatches. Consider rewriting code  [E:/study/bitmips_experiments/lab5/teach_soc/teach_soc.srcs/sources_1/new/myCPU/dataMem.v:21]
+WARNING: [Synth 8-5788] Register dmem_reg[160] in module dataMem is has both Set and reset with same priority. This may cause simulation mismatches. Consider rewriting code  [E:/study/bitmips_experiments/lab5/teach_soc/teach_soc.srcs/sources_1/new/myCPU/dataMem.v:21]
+WARNING: [Synth 8-5788] Register dmem_reg[159] in module dataMem is has both Set and reset with same priority. This may cause simulation mismatches. Consider rewriting code  [E:/study/bitmips_experiments/lab5/teach_soc/teach_soc.srcs/sources_1/new/myCPU/dataMem.v:21]
+WARNING: [Synth 8-5788] Register dmem_reg[158] in module dataMem is has both Set and reset with same priority. This may cause simulation mismatches. Consider rewriting code  [E:/study/bitmips_experiments/lab5/teach_soc/teach_soc.srcs/sources_1/new/myCPU/dataMem.v:21]
+INFO: [Common 17-14] Message 'Synth 8-5788' appears 100 times and further instances of the messages will be disabled. Use the Tcl command set_msg_config to change the current settings.
+INFO: [Synth 8-6155] done synthesizing module 'dataMem' (16#1) [E:/study/bitmips_experiments/lab5/teach_soc/teach_soc.srcs/sources_1/new/myCPU/dataMem.v:3]
+WARNING: [Synth 8-689] width (4) of port connection 'WE' does not match port width (1) of module 'dataMem' [E:/study/bitmips_experiments/lab5/teach_soc/teach_soc.srcs/sources_1/new/myCPU/top_module.v:270]
+INFO: [Synth 8-6157] synthesizing module 'blockD' [E:/study/bitmips_experiments/lab5/teach_soc/teach_soc.srcs/sources_1/new/myCPU/blockD.v:3]
+INFO: [Synth 8-6155] done synthesizing module 'blockD' (17#1) [E:/study/bitmips_experiments/lab5/teach_soc/teach_soc.srcs/sources_1/new/myCPU/blockD.v:3]
+WARNING: [Synth 8-689] width (1) of port connection 'PCPlus4W' does not match port width (32) of module 'blockD' [E:/study/bitmips_experiments/lab5/teach_soc/teach_soc.srcs/sources_1/new/myCPU/top_module.v:298]
+INFO: [Synth 8-6155] done synthesizing module 'top_module' (18#1) [E:/study/bitmips_experiments/lab5/teach_soc/teach_soc.srcs/sources_1/new/myCPU/top_module.v:3]
+WARNING: [Synth 8-3331] design dataMem has unconnected port A[31]
+WARNING: [Synth 8-3331] design dataMem has unconnected port A[30]
+WARNING: [Synth 8-3331] design dataMem has unconnected port A[29]
+WARNING: [Synth 8-3331] design dataMem has unconnected port A[28]
+WARNING: [Synth 8-3331] design dataMem has unconnected port A[27]
+WARNING: [Synth 8-3331] design dataMem has unconnected port A[26]
+WARNING: [Synth 8-3331] design dataMem has unconnected port A[25]
+WARNING: [Synth 8-3331] design dataMem has unconnected port A[24]
+WARNING: [Synth 8-3331] design dataMem has unconnected port A[23]
+WARNING: [Synth 8-3331] design dataMem has unconnected port A[22]
+WARNING: [Synth 8-3331] design dataMem has unconnected port A[21]
+WARNING: [Synth 8-3331] design dataMem has unconnected port A[20]
+WARNING: [Synth 8-3331] design dataMem has unconnected port A[19]
+WARNING: [Synth 8-3331] design dataMem has unconnected port A[18]
+WARNING: [Synth 8-3331] design dataMem has unconnected port A[17]
+WARNING: [Synth 8-3331] design dataMem has unconnected port A[16]
+WARNING: [Synth 8-3331] design dataMem has unconnected port A[15]
+WARNING: [Synth 8-3331] design dataMem has unconnected port A[14]
+WARNING: [Synth 8-3331] design dataMem has unconnected port A[13]
+WARNING: [Synth 8-3331] design dataMem has unconnected port A[12]
+WARNING: [Synth 8-3331] design dataMem has unconnected port A[11]
+WARNING: [Synth 8-3331] design dataMem has unconnected port A[10]
+WARNING: [Synth 8-3331] design dataMem has unconnected port A[9]
+WARNING: [Synth 8-3331] design dataMem has unconnected port A[8]
+WARNING: [Synth 8-3331] design brUnit has unconnected port j_instr_index[25]
+WARNING: [Synth 8-3331] design brUnit has unconnected port j_instr_index[24]
+WARNING: [Synth 8-3331] design brUnit has unconnected port j_instr_index[23]
+WARNING: [Synth 8-3331] design brUnit has unconnected port j_instr_index[22]
+WARNING: [Synth 8-3331] design brUnit has unconnected port j_instr_index[21]
+WARNING: [Synth 8-3331] design brUnit has unconnected port j_instr_index[20]
+WARNING: [Synth 8-3331] design instMem has unconnected port PC_ADDR[31]
+WARNING: [Synth 8-3331] design instMem has unconnected port PC_ADDR[30]
+WARNING: [Synth 8-3331] design instMem has unconnected port PC_ADDR[29]
+WARNING: [Synth 8-3331] design instMem has unconnected port PC_ADDR[28]
+WARNING: [Synth 8-3331] design instMem has unconnected port PC_ADDR[27]
+WARNING: [Synth 8-3331] design instMem has unconnected port PC_ADDR[26]
+WARNING: [Synth 8-3331] design instMem has unconnected port PC_ADDR[25]
+WARNING: [Synth 8-3331] design instMem has unconnected port PC_ADDR[24]
+WARNING: [Synth 8-3331] design instMem has unconnected port PC_ADDR[23]
+WARNING: [Synth 8-3331] design instMem has unconnected port PC_ADDR[22]
+WARNING: [Synth 8-3331] design instMem has unconnected port PC_ADDR[21]
+WARNING: [Synth 8-3331] design instMem has unconnected port PC_ADDR[20]
+WARNING: [Synth 8-3331] design instMem has unconnected port PC_ADDR[19]
+WARNING: [Synth 8-3331] design instMem has unconnected port PC_ADDR[18]
+WARNING: [Synth 8-3331] design instMem has unconnected port PC_ADDR[17]
+WARNING: [Synth 8-3331] design instMem has unconnected port PC_ADDR[16]
+WARNING: [Synth 8-3331] design instMem has unconnected port PC_ADDR[15]
+WARNING: [Synth 8-3331] design instMem has unconnected port PC_ADDR[14]
+WARNING: [Synth 8-3331] design instMem has unconnected port PC_ADDR[13]
+WARNING: [Synth 8-3331] design instMem has unconnected port PC_ADDR[12]
+WARNING: [Synth 8-3331] design instMem has unconnected port PC_ADDR[11]
+WARNING: [Synth 8-3331] design instMem has unconnected port PC_ADDR[10]
+WARNING: [Synth 8-3331] design instMem has unconnected port PC_ADDR[9]
+WARNING: [Synth 8-3331] design instMem has unconnected port PC_ADDR[8]
+WARNING: [Synth 8-3331] design jmpPause has unconnected port rawflag
+---------------------------------------------------------------------------------
+Finished RTL Elaboration : Time (s): cpu = 00:00:08 ; elapsed = 00:00:09 . Memory (MB): peak = 981.699 ; gain = 371.387
+---------------------------------------------------------------------------------
+
+Report Check Netlist: 
++------+------------------+-------+---------+-------+------------------+
+|      |Item              |Errors |Warnings |Status |Description       |
++------+------------------+-------+---------+-------+------------------+
+|1     |multi_driven_nets |      0|        0|Passed |Multi driven nets |
++------+------------------+-------+---------+-------+------------------+
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:09 ; elapsed = 00:00:10 . Memory (MB): peak = 988.980 ; gain = 378.668
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:09 ; elapsed = 00:00:10 . Memory (MB): peak = 988.980 ; gain = 378.668
+---------------------------------------------------------------------------------
+Netlist sorting complete. Time (s): cpu = 00:00:01 ; elapsed = 00:00:00.267 . Memory (MB): peak = 988.980 ; gain = 0.000
+INFO: [Project 1-570] Preparing netlist for logic optimization
+
+Processing XDC Constraints
+Initializing timing engine
+Parsing XDC File [e:/study/bitmips_experiments/lab5/teach_soc/teach_soc.srcs/sources_1/bd/led_show_num/ip/led_show_num_led_num_0_0/led_show_num_led_num_0_0/led_show_num_led_num_0_0_in_context.xdc] for cell 'led/led_num_0'
+Finished Parsing XDC File [e:/study/bitmips_experiments/lab5/teach_soc/teach_soc.srcs/sources_1/bd/led_show_num/ip/led_show_num_led_num_0_0/led_show_num_led_num_0_0/led_show_num_led_num_0_0_in_context.xdc] for cell 'led/led_num_0'
+Parsing XDC File [E:/study/bitmips_experiments/lab5/teach_soc/teach_soc.srcs/constrs_1/new/teach_soc.xdc]
+WARNING: [Vivado 12-584] No ports matched 'digital_cs[7]'. [E:/study/bitmips_experiments/lab5/teach_soc/teach_soc.srcs/constrs_1/new/teach_soc.xdc:1]
+WARNING: [Vivado 12-584] No ports matched 'digital_cs[6]'. [E:/study/bitmips_experiments/lab5/teach_soc/teach_soc.srcs/constrs_1/new/teach_soc.xdc:2]
+WARNING: [Vivado 12-584] No ports matched 'digital_cs[5]'. [E:/study/bitmips_experiments/lab5/teach_soc/teach_soc.srcs/constrs_1/new/teach_soc.xdc:3]
+WARNING: [Vivado 12-584] No ports matched 'digital_cs[4]'. [E:/study/bitmips_experiments/lab5/teach_soc/teach_soc.srcs/constrs_1/new/teach_soc.xdc:4]
+WARNING: [Vivado 12-584] No ports matched 'digital_cs[3]'. [E:/study/bitmips_experiments/lab5/teach_soc/teach_soc.srcs/constrs_1/new/teach_soc.xdc:5]
+WARNING: [Vivado 12-584] No ports matched 'digital_cs[2]'. [E:/study/bitmips_experiments/lab5/teach_soc/teach_soc.srcs/constrs_1/new/teach_soc.xdc:6]
+WARNING: [Vivado 12-584] No ports matched 'digital_cs[1]'. [E:/study/bitmips_experiments/lab5/teach_soc/teach_soc.srcs/constrs_1/new/teach_soc.xdc:7]
+WARNING: [Vivado 12-584] No ports matched 'digital_cs[0]'. [E:/study/bitmips_experiments/lab5/teach_soc/teach_soc.srcs/constrs_1/new/teach_soc.xdc:8]
+WARNING: [Vivado 12-584] No ports matched 'digital_cs[7]'. [E:/study/bitmips_experiments/lab5/teach_soc/teach_soc.srcs/constrs_1/new/teach_soc.xdc:9]
+WARNING: [Vivado 12-584] No ports matched 'digital_cs[6]'. [E:/study/bitmips_experiments/lab5/teach_soc/teach_soc.srcs/constrs_1/new/teach_soc.xdc:10]
+WARNING: [Vivado 12-584] No ports matched 'digital_cs[5]'. [E:/study/bitmips_experiments/lab5/teach_soc/teach_soc.srcs/constrs_1/new/teach_soc.xdc:11]
+WARNING: [Vivado 12-584] No ports matched 'digital_cs[4]'. [E:/study/bitmips_experiments/lab5/teach_soc/teach_soc.srcs/constrs_1/new/teach_soc.xdc:12]
+WARNING: [Vivado 12-584] No ports matched 'digital_cs[3]'. [E:/study/bitmips_experiments/lab5/teach_soc/teach_soc.srcs/constrs_1/new/teach_soc.xdc:13]
+WARNING: [Vivado 12-584] No ports matched 'digital_cs[2]'. [E:/study/bitmips_experiments/lab5/teach_soc/teach_soc.srcs/constrs_1/new/teach_soc.xdc:14]
+WARNING: [Vivado 12-584] No ports matched 'digital_cs[1]'. [E:/study/bitmips_experiments/lab5/teach_soc/teach_soc.srcs/constrs_1/new/teach_soc.xdc:15]
+WARNING: [Vivado 12-584] No ports matched 'digital_cs[0]'. [E:/study/bitmips_experiments/lab5/teach_soc/teach_soc.srcs/constrs_1/new/teach_soc.xdc:16]
+WARNING: [Vivado 12-584] No ports matched 'digital_num0[6]'. [E:/study/bitmips_experiments/lab5/teach_soc/teach_soc.srcs/constrs_1/new/teach_soc.xdc:17]
+WARNING: [Vivado 12-584] No ports matched 'digital_num0[5]'. [E:/study/bitmips_experiments/lab5/teach_soc/teach_soc.srcs/constrs_1/new/teach_soc.xdc:18]
+WARNING: [Vivado 12-584] No ports matched 'digital_num0[4]'. [E:/study/bitmips_experiments/lab5/teach_soc/teach_soc.srcs/constrs_1/new/teach_soc.xdc:19]
+WARNING: [Vivado 12-584] No ports matched 'digital_num0[3]'. [E:/study/bitmips_experiments/lab5/teach_soc/teach_soc.srcs/constrs_1/new/teach_soc.xdc:20]
+WARNING: [Vivado 12-584] No ports matched 'digital_num0[2]'. [E:/study/bitmips_experiments/lab5/teach_soc/teach_soc.srcs/constrs_1/new/teach_soc.xdc:21]
+WARNING: [Vivado 12-584] No ports matched 'digital_num0[1]'. [E:/study/bitmips_experiments/lab5/teach_soc/teach_soc.srcs/constrs_1/new/teach_soc.xdc:22]
+WARNING: [Vivado 12-584] No ports matched 'digital_num0[0]'. [E:/study/bitmips_experiments/lab5/teach_soc/teach_soc.srcs/constrs_1/new/teach_soc.xdc:23]
+WARNING: [Vivado 12-584] No ports matched 'digital_num0[6]'. [E:/study/bitmips_experiments/lab5/teach_soc/teach_soc.srcs/constrs_1/new/teach_soc.xdc:24]
+WARNING: [Vivado 12-584] No ports matched 'digital_num0[5]'. [E:/study/bitmips_experiments/lab5/teach_soc/teach_soc.srcs/constrs_1/new/teach_soc.xdc:25]
+WARNING: [Vivado 12-584] No ports matched 'digital_num0[4]'. [E:/study/bitmips_experiments/lab5/teach_soc/teach_soc.srcs/constrs_1/new/teach_soc.xdc:26]
+WARNING: [Vivado 12-584] No ports matched 'digital_num0[3]'. [E:/study/bitmips_experiments/lab5/teach_soc/teach_soc.srcs/constrs_1/new/teach_soc.xdc:27]
+WARNING: [Vivado 12-584] No ports matched 'digital_num0[2]'. [E:/study/bitmips_experiments/lab5/teach_soc/teach_soc.srcs/constrs_1/new/teach_soc.xdc:28]
+WARNING: [Vivado 12-584] No ports matched 'digital_num0[1]'. [E:/study/bitmips_experiments/lab5/teach_soc/teach_soc.srcs/constrs_1/new/teach_soc.xdc:29]
+WARNING: [Vivado 12-584] No ports matched 'digital_num0[0]'. [E:/study/bitmips_experiments/lab5/teach_soc/teach_soc.srcs/constrs_1/new/teach_soc.xdc:30]
+WARNING: [Vivado 12-584] No ports matched 'digital_num1[6]'. [E:/study/bitmips_experiments/lab5/teach_soc/teach_soc.srcs/constrs_1/new/teach_soc.xdc:31]
+WARNING: [Vivado 12-584] No ports matched 'digital_num1[5]'. [E:/study/bitmips_experiments/lab5/teach_soc/teach_soc.srcs/constrs_1/new/teach_soc.xdc:32]
+WARNING: [Vivado 12-584] No ports matched 'digital_num1[4]'. [E:/study/bitmips_experiments/lab5/teach_soc/teach_soc.srcs/constrs_1/new/teach_soc.xdc:33]
+WARNING: [Vivado 12-584] No ports matched 'digital_num1[3]'. [E:/study/bitmips_experiments/lab5/teach_soc/teach_soc.srcs/constrs_1/new/teach_soc.xdc:34]
+WARNING: [Vivado 12-584] No ports matched 'digital_num1[2]'. [E:/study/bitmips_experiments/lab5/teach_soc/teach_soc.srcs/constrs_1/new/teach_soc.xdc:35]
+WARNING: [Vivado 12-584] No ports matched 'digital_num1[1]'. [E:/study/bitmips_experiments/lab5/teach_soc/teach_soc.srcs/constrs_1/new/teach_soc.xdc:36]
+WARNING: [Vivado 12-584] No ports matched 'digital_num1[0]'. [E:/study/bitmips_experiments/lab5/teach_soc/teach_soc.srcs/constrs_1/new/teach_soc.xdc:37]
+WARNING: [Vivado 12-584] No ports matched 'digital_num1[6]'. [E:/study/bitmips_experiments/lab5/teach_soc/teach_soc.srcs/constrs_1/new/teach_soc.xdc:38]
+WARNING: [Vivado 12-584] No ports matched 'digital_num1[5]'. [E:/study/bitmips_experiments/lab5/teach_soc/teach_soc.srcs/constrs_1/new/teach_soc.xdc:39]
+WARNING: [Vivado 12-584] No ports matched 'digital_num1[4]'. [E:/study/bitmips_experiments/lab5/teach_soc/teach_soc.srcs/constrs_1/new/teach_soc.xdc:40]
+WARNING: [Vivado 12-584] No ports matched 'digital_num1[3]'. [E:/study/bitmips_experiments/lab5/teach_soc/teach_soc.srcs/constrs_1/new/teach_soc.xdc:41]
+WARNING: [Vivado 12-584] No ports matched 'digital_num1[2]'. [E:/study/bitmips_experiments/lab5/teach_soc/teach_soc.srcs/constrs_1/new/teach_soc.xdc:42]
+WARNING: [Vivado 12-584] No ports matched 'digital_num1[1]'. [E:/study/bitmips_experiments/lab5/teach_soc/teach_soc.srcs/constrs_1/new/teach_soc.xdc:43]
+WARNING: [Vivado 12-584] No ports matched 'digital_num1[0]'. [E:/study/bitmips_experiments/lab5/teach_soc/teach_soc.srcs/constrs_1/new/teach_soc.xdc:44]
+WARNING: [Vivado 12-584] No ports matched 'switch[7]'. [E:/study/bitmips_experiments/lab5/teach_soc/teach_soc.srcs/constrs_1/new/teach_soc.xdc:46]
+WARNING: [Vivado 12-584] No ports matched 'switch[6]'. [E:/study/bitmips_experiments/lab5/teach_soc/teach_soc.srcs/constrs_1/new/teach_soc.xdc:47]
+WARNING: [Vivado 12-584] No ports matched 'switch[5]'. [E:/study/bitmips_experiments/lab5/teach_soc/teach_soc.srcs/constrs_1/new/teach_soc.xdc:48]
+WARNING: [Vivado 12-584] No ports matched 'switch[4]'. [E:/study/bitmips_experiments/lab5/teach_soc/teach_soc.srcs/constrs_1/new/teach_soc.xdc:49]
+WARNING: [Vivado 12-584] No ports matched 'switch[3]'. [E:/study/bitmips_experiments/lab5/teach_soc/teach_soc.srcs/constrs_1/new/teach_soc.xdc:50]
+WARNING: [Vivado 12-584] No ports matched 'switch[2]'. [E:/study/bitmips_experiments/lab5/teach_soc/teach_soc.srcs/constrs_1/new/teach_soc.xdc:51]
+WARNING: [Vivado 12-584] No ports matched 'switch[1]'. [E:/study/bitmips_experiments/lab5/teach_soc/teach_soc.srcs/constrs_1/new/teach_soc.xdc:52]
+WARNING: [Vivado 12-584] No ports matched 'switch[0]'. [E:/study/bitmips_experiments/lab5/teach_soc/teach_soc.srcs/constrs_1/new/teach_soc.xdc:53]
+WARNING: [Vivado 12-584] No ports matched 'switch[0]'. [E:/study/bitmips_experiments/lab5/teach_soc/teach_soc.srcs/constrs_1/new/teach_soc.xdc:54]
+WARNING: [Vivado 12-584] No ports matched 'switch[1]'. [E:/study/bitmips_experiments/lab5/teach_soc/teach_soc.srcs/constrs_1/new/teach_soc.xdc:55]
+WARNING: [Vivado 12-584] No ports matched 'switch[2]'. [E:/study/bitmips_experiments/lab5/teach_soc/teach_soc.srcs/constrs_1/new/teach_soc.xdc:56]
+WARNING: [Vivado 12-584] No ports matched 'switch[3]'. [E:/study/bitmips_experiments/lab5/teach_soc/teach_soc.srcs/constrs_1/new/teach_soc.xdc:57]
+WARNING: [Vivado 12-584] No ports matched 'switch[4]'. [E:/study/bitmips_experiments/lab5/teach_soc/teach_soc.srcs/constrs_1/new/teach_soc.xdc:58]
+WARNING: [Vivado 12-584] No ports matched 'switch[5]'. [E:/study/bitmips_experiments/lab5/teach_soc/teach_soc.srcs/constrs_1/new/teach_soc.xdc:59]
+WARNING: [Vivado 12-584] No ports matched 'switch[6]'. [E:/study/bitmips_experiments/lab5/teach_soc/teach_soc.srcs/constrs_1/new/teach_soc.xdc:60]
+WARNING: [Vivado 12-584] No ports matched 'switch[7]'. [E:/study/bitmips_experiments/lab5/teach_soc/teach_soc.srcs/constrs_1/new/teach_soc.xdc:61]
+WARNING: [Vivado 12-584] No ports matched 'led[7]'. [E:/study/bitmips_experiments/lab5/teach_soc/teach_soc.srcs/constrs_1/new/teach_soc.xdc:62]
+WARNING: [Vivado 12-584] No ports matched 'led[6]'. [E:/study/bitmips_experiments/lab5/teach_soc/teach_soc.srcs/constrs_1/new/teach_soc.xdc:63]
+WARNING: [Vivado 12-584] No ports matched 'led[5]'. [E:/study/bitmips_experiments/lab5/teach_soc/teach_soc.srcs/constrs_1/new/teach_soc.xdc:64]
+WARNING: [Vivado 12-584] No ports matched 'led[4]'. [E:/study/bitmips_experiments/lab5/teach_soc/teach_soc.srcs/constrs_1/new/teach_soc.xdc:65]
+WARNING: [Vivado 12-584] No ports matched 'led[3]'. [E:/study/bitmips_experiments/lab5/teach_soc/teach_soc.srcs/constrs_1/new/teach_soc.xdc:66]
+WARNING: [Vivado 12-584] No ports matched 'led[2]'. [E:/study/bitmips_experiments/lab5/teach_soc/teach_soc.srcs/constrs_1/new/teach_soc.xdc:67]
+WARNING: [Vivado 12-584] No ports matched 'led[1]'. [E:/study/bitmips_experiments/lab5/teach_soc/teach_soc.srcs/constrs_1/new/teach_soc.xdc:68]
+WARNING: [Vivado 12-584] No ports matched 'led[0]'. [E:/study/bitmips_experiments/lab5/teach_soc/teach_soc.srcs/constrs_1/new/teach_soc.xdc:69]
+WARNING: [Vivado 12-584] No ports matched 'led[0]'. [E:/study/bitmips_experiments/lab5/teach_soc/teach_soc.srcs/constrs_1/new/teach_soc.xdc:70]
+WARNING: [Vivado 12-584] No ports matched 'led[1]'. [E:/study/bitmips_experiments/lab5/teach_soc/teach_soc.srcs/constrs_1/new/teach_soc.xdc:71]
+WARNING: [Vivado 12-584] No ports matched 'led[2]'. [E:/study/bitmips_experiments/lab5/teach_soc/teach_soc.srcs/constrs_1/new/teach_soc.xdc:72]
+WARNING: [Vivado 12-584] No ports matched 'led[3]'. [E:/study/bitmips_experiments/lab5/teach_soc/teach_soc.srcs/constrs_1/new/teach_soc.xdc:73]
+WARNING: [Vivado 12-584] No ports matched 'led[4]'. [E:/study/bitmips_experiments/lab5/teach_soc/teach_soc.srcs/constrs_1/new/teach_soc.xdc:74]
+WARNING: [Vivado 12-584] No ports matched 'led[5]'. [E:/study/bitmips_experiments/lab5/teach_soc/teach_soc.srcs/constrs_1/new/teach_soc.xdc:75]
+WARNING: [Vivado 12-584] No ports matched 'led[6]'. [E:/study/bitmips_experiments/lab5/teach_soc/teach_soc.srcs/constrs_1/new/teach_soc.xdc:76]
+WARNING: [Vivado 12-584] No ports matched 'led[7]'. [E:/study/bitmips_experiments/lab5/teach_soc/teach_soc.srcs/constrs_1/new/teach_soc.xdc:77]
+WARNING: [Vivado 12-584] No ports matched 'resetn'. [E:/study/bitmips_experiments/lab5/teach_soc/teach_soc.srcs/constrs_1/new/teach_soc.xdc:80]
+WARNING: [Vivado 12-584] No ports matched 'resetn'. [E:/study/bitmips_experiments/lab5/teach_soc/teach_soc.srcs/constrs_1/new/teach_soc.xdc:82]
+WARNING: [Vivado 12-584] No ports matched 'down_btn_key'. [E:/study/bitmips_experiments/lab5/teach_soc/teach_soc.srcs/constrs_1/new/teach_soc.xdc:84]
+WARNING: [Vivado 12-584] No ports matched 'left_btn_key'. [E:/study/bitmips_experiments/lab5/teach_soc/teach_soc.srcs/constrs_1/new/teach_soc.xdc:85]
+WARNING: [Vivado 12-584] No ports matched 'mid_btn_key'. [E:/study/bitmips_experiments/lab5/teach_soc/teach_soc.srcs/constrs_1/new/teach_soc.xdc:86]
+WARNING: [Vivado 12-584] No ports matched 'right_btn_key'. [E:/study/bitmips_experiments/lab5/teach_soc/teach_soc.srcs/constrs_1/new/teach_soc.xdc:87]
+WARNING: [Vivado 12-584] No ports matched 'up_btn_key'. [E:/study/bitmips_experiments/lab5/teach_soc/teach_soc.srcs/constrs_1/new/teach_soc.xdc:88]
+WARNING: [Vivado 12-584] No ports matched 'right_btn_key'. [E:/study/bitmips_experiments/lab5/teach_soc/teach_soc.srcs/constrs_1/new/teach_soc.xdc:89]
+WARNING: [Vivado 12-584] No ports matched 'left_btn_key'. [E:/study/bitmips_experiments/lab5/teach_soc/teach_soc.srcs/constrs_1/new/teach_soc.xdc:90]
+WARNING: [Vivado 12-584] No ports matched 'down_btn_key'. [E:/study/bitmips_experiments/lab5/teach_soc/teach_soc.srcs/constrs_1/new/teach_soc.xdc:91]
+WARNING: [Vivado 12-584] No ports matched 'mid_btn_key'. [E:/study/bitmips_experiments/lab5/teach_soc/teach_soc.srcs/constrs_1/new/teach_soc.xdc:92]
+WARNING: [Vivado 12-584] No ports matched 'up_btn_key'. [E:/study/bitmips_experiments/lab5/teach_soc/teach_soc.srcs/constrs_1/new/teach_soc.xdc:93]
+Finished Parsing XDC File [E:/study/bitmips_experiments/lab5/teach_soc/teach_soc.srcs/constrs_1/new/teach_soc.xdc]
+WARNING: [Project 1-498] One or more constraints failed evaluation while reading constraint file [E:/study/bitmips_experiments/lab5/teach_soc/teach_soc.srcs/constrs_1/new/teach_soc.xdc] and the design contains unresolved black boxes. These constraints will be read post-synthesis (as long as their source constraint file is marked as used_in_implementation) and should be applied correctly then. You should review the constraints listed in the file [.Xil/top_module_propImpl.xdc] and check the run log file to verify that these constraints were correctly applied.
+INFO: [Project 1-236] Implementation specific constraints were found while reading constraint file [E:/study/bitmips_experiments/lab5/teach_soc/teach_soc.srcs/constrs_1/new/teach_soc.xdc]. These constraints will be ignored for synthesis but will be used in implementation. Impacted constraints are listed in the file [.Xil/top_module_propImpl.xdc].
+Resolution: To avoid this warning, move constraints listed in [.Xil/top_module_propImpl.xdc] to another XDC file and exclude this new file from synthesis with the used_in_synthesis property (File Properties dialog in GUI) and re-run elaboration/synthesis.
+Parsing XDC File [E:/study/bitmips_experiments/lab5/teach_soc/teach_soc.runs/synth_1/dont_touch.xdc]
+Finished Parsing XDC File [E:/study/bitmips_experiments/lab5/teach_soc/teach_soc.runs/synth_1/dont_touch.xdc]
+Completed Processing XDC Constraints
+
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.002 . Memory (MB): peak = 1097.926 ; gain = 0.000
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+Constraint Validation Runtime : Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.055 . Memory (MB): peak = 1097.926 ; gain = 0.000
+---------------------------------------------------------------------------------
+Finished Constraint Validation : Time (s): cpu = 00:00:19 ; elapsed = 00:00:20 . Memory (MB): peak = 1097.926 ; gain = 487.613
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Loading Part and Timing Information
+---------------------------------------------------------------------------------
+Loading part: xc7a35tcsg324-1
+---------------------------------------------------------------------------------
+Finished Loading Part and Timing Information : Time (s): cpu = 00:00:19 ; elapsed = 00:00:20 . Memory (MB): peak = 1097.926 ; gain = 487.613
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Applying 'set_property' XDC Constraints
+---------------------------------------------------------------------------------
+Applied set_property DONT_TOUCH = true for led. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for led/led_num_0. (constraint file  auto generated constraint, line ).
+---------------------------------------------------------------------------------
+Finished applying 'set_property' XDC Constraints : Time (s): cpu = 00:00:19 ; elapsed = 00:00:20 . Memory (MB): peak = 1097.926 ; gain = 487.613
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:44 ; elapsed = 00:00:47 . Memory (MB): peak = 1097.926 ; gain = 487.613
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++------+----------------+------------+----------+
+|      |RTL Partition   |Replication |Instances |
++------+----------------+------------+----------+
+|1     |dataMem         |           1|     36822|
+|2     |top_module__GB1 |           1|      7109|
+|3     |top_module__GB2 |           1|     11192|
++------+----------------+------------+----------+
+---------------------------------------------------------------------------------
+Start RTL Component Statistics 
+---------------------------------------------------------------------------------
+Detailed RTL Component Info : 
++---Adders : 
+	   3 Input     32 Bit       Adders := 1     
+	   2 Input     32 Bit       Adders := 2     
+	   2 Input      4 Bit       Adders := 1     
++---XORs : 
+	   2 Input     32 Bit         XORs := 1     
+	   2 Input      1 Bit         XORs := 1     
++---Registers : 
+	               32 Bit    Registers := 45    
+	               26 Bit    Registers := 1     
+	                8 Bit    Registers := 380   
+	                6 Bit    Registers := 1     
+	                5 Bit    Registers := 6     
+	                4 Bit    Registers := 2     
+	                3 Bit    Registers := 1     
+	                1 Bit    Registers := 12    
++---Muxes : 
+	   2 Input     32 Bit        Muxes := 11    
+	   3 Input     32 Bit        Muxes := 1     
+	   4 Input      8 Bit        Muxes := 141   
+	   2 Input      8 Bit        Muxes := 254   
+	   8 Input      6 Bit        Muxes := 1     
+	   2 Input      6 Bit        Muxes := 5     
+	   4 Input      6 Bit        Muxes := 1     
+	   2 Input      5 Bit        Muxes := 44    
+	   3 Input      5 Bit        Muxes := 4     
+	   5 Input      5 Bit        Muxes := 2     
+	   2 Input      4 Bit        Muxes := 2     
+	   5 Input      3 Bit        Muxes := 2     
+	   2 Input      3 Bit        Muxes := 1     
+	   6 Input      3 Bit        Muxes := 1     
+	   4 Input      2 Bit        Muxes := 14    
+	   2 Input      1 Bit        Muxes := 569   
+	   4 Input      1 Bit        Muxes := 253   
+---------------------------------------------------------------------------------
+Finished RTL Component Statistics 
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start RTL Hierarchical Component Statistics 
+---------------------------------------------------------------------------------
+Hierarchical RTL Component report 
+Module top_module 
+Detailed RTL Component Info : 
++---Muxes : 
+	   2 Input     32 Bit        Muxes := 3     
+	   3 Input     32 Bit        Muxes := 1     
+	   2 Input      5 Bit        Muxes := 2     
+Module dataMem 
+Detailed RTL Component Info : 
++---Registers : 
+	                8 Bit    Registers := 256   
++---Muxes : 
+	   4 Input      8 Bit        Muxes := 141   
+	   2 Input      8 Bit        Muxes := 254   
+	   4 Input      2 Bit        Muxes := 14    
+	   2 Input      1 Bit        Muxes := 510   
+	   4 Input      1 Bit        Muxes := 253   
+Module control 
+Detailed RTL Component Info : 
++---Muxes : 
+	   8 Input      6 Bit        Muxes := 1     
+	   2 Input      6 Bit        Muxes := 5     
+	   4 Input      6 Bit        Muxes := 1     
+	   2 Input      5 Bit        Muxes := 19    
+	   3 Input      5 Bit        Muxes := 2     
+	   5 Input      5 Bit        Muxes := 1     
+	   5 Input      3 Bit        Muxes := 1     
+	   2 Input      3 Bit        Muxes := 1     
+	   6 Input      3 Bit        Muxes := 1     
+	   2 Input      1 Bit        Muxes := 3     
+Module register_heap 
+Detailed RTL Component Info : 
++---Registers : 
+	               32 Bit    Registers := 32    
++---Muxes : 
+	   2 Input      1 Bit        Muxes := 32    
+Module signExtend 
+Detailed RTL Component Info : 
++---Muxes : 
+	   2 Input     32 Bit        Muxes := 1     
+Module blockB 
+Detailed RTL Component Info : 
++---Registers : 
+	               32 Bit    Registers := 4     
+	               26 Bit    Registers := 1     
+	                6 Bit    Registers := 1     
+	                5 Bit    Registers := 1     
+	                3 Bit    Registers := 1     
+	                1 Bit    Registers := 6     
+Module alu 
+Detailed RTL Component Info : 
++---Adders : 
+	   3 Input     32 Bit       Adders := 1     
++---XORs : 
+	   2 Input     32 Bit         XORs := 1     
+	   2 Input      1 Bit         XORs := 1     
++---Muxes : 
+	   2 Input     32 Bit        Muxes := 1     
+	   2 Input      1 Bit        Muxes := 17    
+Module brUnit 
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input     32 Bit       Adders := 1     
++---Muxes : 
+	   2 Input     32 Bit        Muxes := 3     
+	   2 Input      1 Bit        Muxes := 3     
+Module blockC 
+Detailed RTL Component Info : 
++---Registers : 
+	               32 Bit    Registers := 3     
+	                5 Bit    Registers := 1     
+	                4 Bit    Registers := 1     
+	                1 Bit    Registers := 3     
++---Muxes : 
+	   2 Input      4 Bit        Muxes := 1     
+Module blockD 
+Detailed RTL Component Info : 
++---Registers : 
+	               32 Bit    Registers := 3     
+	                5 Bit    Registers := 1     
+	                1 Bit    Registers := 3     
+Module blockA 
+Detailed RTL Component Info : 
++---Registers : 
+	               32 Bit    Registers := 2     
+Module pc 
+Detailed RTL Component Info : 
++---Registers : 
+	               32 Bit    Registers := 1     
+Module jmpPause 
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input      4 Bit       Adders := 1     
++---Registers : 
+	                4 Bit    Registers := 1     
++---Muxes : 
+	   2 Input     32 Bit        Muxes := 1     
+	   2 Input      4 Bit        Muxes := 1     
+	   2 Input      1 Bit        Muxes := 1     
+Module instMem 
+Detailed RTL Component Info : 
++---Registers : 
+	                8 Bit    Registers := 124   
+Module rawPause 
+Detailed RTL Component Info : 
++---Registers : 
+	                5 Bit    Registers := 3     
++---Muxes : 
+	   2 Input     32 Bit        Muxes := 1     
+	   2 Input      5 Bit        Muxes := 23    
+	   3 Input      5 Bit        Muxes := 2     
+	   5 Input      5 Bit        Muxes := 1     
+	   5 Input      3 Bit        Muxes := 1     
+	   2 Input      1 Bit        Muxes := 3     
+Module getInst 
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input     32 Bit       Adders := 1     
++---Muxes : 
+	   2 Input     32 Bit        Muxes := 1     
+---------------------------------------------------------------------------------
+Finished RTL Hierarchical Component Statistics
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Part Resource Summary
+---------------------------------------------------------------------------------
+Part Resources:
+DSPs: 90 (col length:60)
+BRAMs: 100 (col length: RAMB18 60 RAMB36 30)
+---------------------------------------------------------------------------------
+Finished Part Resource Summary
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Cross Boundary and Area Optimization
+---------------------------------------------------------------------------------
+Warning: Parallel synthesis criteria is not met 
+INFO: [Synth 8-3886] merging instance 'i_0/blockb/SignImmE_reg[30]' (FDR) to 'i_0/blockb/jmpaddrE_reg[15]'
+INFO: [Synth 8-3886] merging instance 'i_0/blockb/SignImmE_reg[31]' (FDR) to 'i_0/blockb/jmpaddrE_reg[15]'
+INFO: [Synth 8-3886] merging instance 'i_0/blockb/jmpaddrE_reg[0]' (FDR) to 'i_0/blockb/SignImmE_reg[0]'
+INFO: [Synth 8-3886] merging instance 'i_0/blockb/jmpaddrE_reg[1]' (FDR) to 'i_0/blockb/SignImmE_reg[1]'
+INFO: [Synth 8-3886] merging instance 'i_0/blockb/jmpaddrE_reg[2]' (FDR) to 'i_0/blockb/SignImmE_reg[2]'
+INFO: [Synth 8-3886] merging instance 'i_0/blockb/jmpaddrE_reg[3]' (FDR) to 'i_0/blockb/SignImmE_reg[3]'
+INFO: [Synth 8-3886] merging instance 'i_0/blockb/jmpaddrE_reg[4]' (FDR) to 'i_0/blockb/SignImmE_reg[4]'
+INFO: [Synth 8-3886] merging instance 'i_0/blockb/jmpaddrE_reg[5]' (FDR) to 'i_0/blockb/SignImmE_reg[5]'
+INFO: [Synth 8-3886] merging instance 'i_0/blockb/jmpaddrE_reg[6]' (FDR) to 'i_0/blockb/SignImmE_reg[6]'
+INFO: [Synth 8-3886] merging instance 'i_0/blockb/jmpaddrE_reg[7]' (FDR) to 'i_0/blockb/SignImmE_reg[7]'
+INFO: [Synth 8-3886] merging instance 'i_0/blockb/jmpaddrE_reg[8]' (FDR) to 'i_0/blockb/SignImmE_reg[8]'
+INFO: [Synth 8-3886] merging instance 'i_0/blockb/jmpaddrE_reg[9]' (FDR) to 'i_0/blockb/SignImmE_reg[9]'
+INFO: [Synth 8-3886] merging instance 'i_0/blockb/jmpaddrE_reg[10]' (FDR) to 'i_0/blockb/SignImmE_reg[10]'
+INFO: [Synth 8-3886] merging instance 'i_0/blockb/jmpaddrE_reg[11]' (FDR) to 'i_0/blockb/SignImmE_reg[11]'
+INFO: [Synth 8-3886] merging instance 'i_0/blockb/jmpaddrE_reg[12]' (FDR) to 'i_0/blockb/SignImmE_reg[12]'
+INFO: [Synth 8-3886] merging instance 'i_0/blockb/jmpaddrE_reg[13]' (FDR) to 'i_0/blockb/SignImmE_reg[13]'
+INFO: [Synth 8-3886] merging instance 'i_0/blockb/jmpaddrE_reg[14]' (FDR) to 'i_0/blockb/SignImmE_reg[14]'
+INFO: [Synth 8-3886] merging instance 'i_0/blockb/jmpaddrE_reg[15]' (FDR) to 'i_0/blockb/SignImmE_reg[15]'
+INFO: [Synth 8-3886] merging instance 'i_0/blockb/SignImmE_reg[15]' (FDR) to 'i_0/blockb/SignImmE_reg[16]'
+INFO: [Synth 8-3886] merging instance 'i_0/blockb/SignImmE_reg[16]' (FDR) to 'i_0/blockb/SignImmE_reg[17]'
+INFO: [Synth 8-3886] merging instance 'i_0/blockb/SignImmE_reg[17]' (FDR) to 'i_0/blockb/SignImmE_reg[18]'
+INFO: [Synth 8-3886] merging instance 'i_0/blockb/SignImmE_reg[18]' (FDR) to 'i_0/blockb/SignImmE_reg[19]'
+INFO: [Synth 8-3886] merging instance 'i_0/blockb/SignImmE_reg[19]' (FDR) to 'i_0/blockb/SignImmE_reg[20]'
+INFO: [Synth 8-3886] merging instance 'i_0/blockb/SignImmE_reg[20]' (FDR) to 'i_0/blockb/SignImmE_reg[21]'
+INFO: [Synth 8-3886] merging instance 'i_0/blockb/SignImmE_reg[21]' (FDR) to 'i_0/blockb/SignImmE_reg[22]'
+INFO: [Synth 8-3886] merging instance 'i_0/blockb/SignImmE_reg[22]' (FDR) to 'i_0/blockb/SignImmE_reg[23]'
+INFO: [Synth 8-3886] merging instance 'i_0/blockb/SignImmE_reg[23]' (FDR) to 'i_0/blockb/SignImmE_reg[24]'
+INFO: [Synth 8-3886] merging instance 'i_0/blockb/SignImmE_reg[24]' (FDR) to 'i_0/blockb/SignImmE_reg[25]'
+INFO: [Synth 8-3886] merging instance 'i_0/blockb/SignImmE_reg[25]' (FDR) to 'i_0/blockb/SignImmE_reg[26]'
+INFO: [Synth 8-3886] merging instance 'i_0/blockb/SignImmE_reg[26]' (FDR) to 'i_0/blockb/SignImmE_reg[27]'
+INFO: [Synth 8-3886] merging instance 'i_0/blockb/SignImmE_reg[27]' (FDR) to 'i_0/blockb/SignImmE_reg[28]'
+INFO: [Synth 8-3886] merging instance 'i_0/blockb/SignImmE_reg[28]' (FDR) to 'i_0/blockb/SignImmE_reg[29]'
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (i_1/\getinst/imem /\imem_reg[123][2] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (i_1/\getinst/imem /\imem_reg[122][2] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (i_1/\getinst/imem /\imem_reg[121][2] )
+INFO: [Synth 8-3333] propagating constant 1 across sequential element (i_1/\getinst/imem /\imem_reg[120][2] )
+INFO: [Synth 8-3333] propagating constant 1 across sequential element (i_1/\getinst/imem /\imem_reg[119][2] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (i_1/\getinst/imem /\imem_reg[118][2] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (i_1/\getinst/imem /\imem_reg[117][2] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (i_1/\getinst/imem /\imem_reg[116][2] )
+INFO: [Synth 8-3333] propagating constant 1 across sequential element (i_1/\getinst/imem /\imem_reg[115][2] )
+INFO: [Synth 8-3333] propagating constant 1 across sequential element (i_1/\getinst/imem /\imem_reg[114][2] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (i_1/\getinst/imem /\imem_reg[113][2] )
+INFO: [Synth 8-3333] propagating constant 1 across sequential element (i_1/\getinst/imem /\imem_reg[112][2] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (i_1/\getinst/imem /\imem_reg[111][2] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (i_1/\getinst/imem /\imem_reg[110][2] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (i_1/\getinst/imem /\imem_reg[109][2] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (i_1/\getinst/imem /\imem_reg[108][2] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (i_1/\getinst/imem /\imem_reg[107][2] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (i_1/\getinst/imem /\imem_reg[106][2] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (i_1/\getinst/imem /\imem_reg[105][2] )
+INFO: [Synth 8-3333] propagating constant 1 across sequential element (i_1/\getinst/imem /\imem_reg[104][2] )
+INFO: [Synth 8-3333] propagating constant 1 across sequential element (i_1/\getinst/imem /\imem_reg[103][2] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (i_1/\getinst/imem /\imem_reg[102][2] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (i_1/\getinst/imem /\imem_reg[101][2] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (i_1/\getinst/imem /\imem_reg[100][2] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (i_1/\getinst/imem /\imem_reg[99][2] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (i_1/\getinst/imem /\imem_reg[98][2] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (i_1/\getinst/imem /\imem_reg[97][2] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (i_1/\getinst/imem /\imem_reg[96][2] )
+INFO: [Synth 8-3333] propagating constant 1 across sequential element (i_1/\getinst/imem /\imem_reg[95][2] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (i_1/\getinst/imem /\imem_reg[94][2] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (i_1/\getinst/imem /\imem_reg[93][2] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (i_1/\getinst/imem /\imem_reg[92][2] )
+INFO: [Synth 8-3333] propagating constant 1 across sequential element (i_1/\getinst/imem /\imem_reg[91][2] )
+INFO: [Synth 8-3333] propagating constant 1 across sequential element (i_1/\getinst/imem /\imem_reg[90][2] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (i_1/\getinst/imem /\imem_reg[89][2] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (i_1/\getinst/imem /\imem_reg[88][2] )
+INFO: [Synth 8-3333] propagating constant 1 across sequential element (i_1/\getinst/imem /\imem_reg[87][2] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (i_1/\getinst/imem /\imem_reg[86][2] )
+INFO: [Synth 8-3333] propagating constant 1 across sequential element (i_1/\getinst/imem /\imem_reg[85][2] )
+INFO: [Synth 8-3333] propagating constant 1 across sequential element (i_1/\getinst/imem /\imem_reg[84][2] )
+INFO: [Synth 8-3333] propagating constant 1 across sequential element (i_1/\getinst/imem /\imem_reg[83][2] )
+INFO: [Synth 8-3333] propagating constant 1 across sequential element (i_1/\getinst/imem /\imem_reg[82][2] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (i_1/\getinst/imem /\imem_reg[81][2] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (i_1/\getinst/imem /\imem_reg[80][2] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (i_1/\getinst/imem /\imem_reg[79][2] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (i_1/\getinst/imem /\imem_reg[78][2] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (i_1/\getinst/imem /\imem_reg[77][2] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (i_1/\getinst/imem /\imem_reg[76][2] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (i_1/\getinst/imem /\imem_reg[75][2] )
+INFO: [Synth 8-3333] propagating constant 1 across sequential element (i_1/\getinst/imem /\imem_reg[74][2] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (i_1/\getinst/imem /\imem_reg[73][2] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (i_1/\getinst/imem /\imem_reg[72][2] )
+INFO: [Synth 8-3333] propagating constant 1 across sequential element (i_1/\getinst/imem /\imem_reg[71][2] )
+INFO: [Synth 8-3333] propagating constant 1 across sequential element (i_1/\getinst/imem /\imem_reg[70][2] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (i_1/\getinst/imem /\imem_reg[69][2] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (i_1/\getinst/imem /\imem_reg[68][2] )
+INFO: [Synth 8-3333] propagating constant 1 across sequential element (i_1/\getinst/imem /\imem_reg[67][2] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (i_1/\getinst/imem /\imem_reg[66][2] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (i_1/\getinst/imem /\imem_reg[65][2] )
+INFO: [Synth 8-3333] propagating constant 1 across sequential element (i_1/\getinst/imem /\imem_reg[64][2] )
+INFO: [Synth 8-3333] propagating constant 1 across sequential element (i_1/\getinst/imem /\imem_reg[63][2] )
+INFO: [Synth 8-3333] propagating constant 1 across sequential element (i_1/\getinst/imem /\imem_reg[62][2] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (i_1/\getinst/imem /\imem_reg[61][2] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (i_1/\getinst/imem /\imem_reg[60][2] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (i_1/\getinst/imem /\imem_reg[59][2] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (i_1/\getinst/imem /\imem_reg[58][2] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (i_1/\getinst/imem /\imem_reg[57][2] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (i_1/\getinst/imem /\imem_reg[56][2] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (i_1/\getinst/imem /\imem_reg[55][2] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (i_1/\getinst/imem /\imem_reg[54][2] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (i_1/\getinst/imem /\imem_reg[53][2] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (i_1/\getinst/imem /\imem_reg[52][2] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (i_1/\getinst/imem /\imem_reg[51][2] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (i_1/\getinst/imem /\imem_reg[50][2] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (i_1/\getinst/imem /\imem_reg[49][2] )
+INFO: [Synth 8-3333] propagating constant 1 across sequential element (i_1/\getinst/imem /\imem_reg[48][2] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (i_1/\getinst/imem /\imem_reg[47][2] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (i_1/\getinst/imem /\imem_reg[46][2] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (i_1/\getinst/imem /\imem_reg[45][2] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (i_1/\getinst/imem /\imem_reg[44][2] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (i_1/\getinst/imem /\imem_reg[43][2] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (i_1/\getinst/imem /\imem_reg[42][2] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (i_1/\getinst/imem /\imem_reg[41][2] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (i_1/\getinst/imem /\imem_reg[40][2] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (i_1/\getinst/imem /\imem_reg[39][2] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (i_1/\getinst/imem /\imem_reg[38][2] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (i_1/\getinst/imem /\imem_reg[37][2] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (i_1/\getinst/imem /\imem_reg[36][2] )
+INFO: [Synth 8-3333] propagating constant 1 across sequential element (i_1/\getinst/imem /\imem_reg[35][2] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (i_1/\getinst/imem /\imem_reg[34][2] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (i_1/\getinst/imem /\imem_reg[33][2] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (i_1/\getinst/imem /\imem_reg[32][2] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (i_1/\getinst/imem /\imem_reg[31][2] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (i_1/\getinst/imem /\imem_reg[30][2] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (i_1/\getinst/imem /\imem_reg[29][2] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (i_1/\getinst/imem /\imem_reg[28][2] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (i_1/\getinst/imem /\imem_reg[27][2] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (i_1/\getinst/imem /\imem_reg[26][2] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (i_1/\getinst/imem /\imem_reg[25][2] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (i_1/\getinst/imem /\imem_reg[24][2] )
+INFO: [Common 17-14] Message 'Synth 8-3333' appears 100 times and further instances of the messages will be disabled. Use the Tcl command set_msg_config to change the current settings.
+INFO: [Synth 8-3886] merging instance 'i_0/blockb/c3E_reg' (FDR) to 'i_0/blockb/cAE_reg[4]'
+---------------------------------------------------------------------------------
+Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:01:17 ; elapsed = 00:01:22 . Memory (MB): peak = 1194.457 ; gain = 584.145
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++------+----------------+------------+----------+
+|      |RTL Partition   |Replication |Instances |
++------+----------------+------------+----------+
+|1     |dataMem         |           1|     18648|
+|2     |top_module__GB1 |           1|      5170|
+|3     |top_module__GB2 |           1|      1071|
++------+----------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Applying XDC Timing Constraints
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Applying XDC Timing Constraints : Time (s): cpu = 00:01:26 ; elapsed = 00:01:31 . Memory (MB): peak = 1194.457 ; gain = 584.145
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Timing Optimization
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Timing Optimization : Time (s): cpu = 00:01:26 ; elapsed = 00:01:31 . Memory (MB): peak = 1194.457 ; gain = 584.145
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++------+----------------+------------+----------+
+|      |RTL Partition   |Replication |Instances |
++------+----------------+------------+----------+
+|1     |dataMem         |           1|     18648|
+|2     |top_module__GB1 |           1|      5170|
+|3     |top_module__GB2 |           1|      1071|
++------+----------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Technology Mapping
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Technology Mapping : Time (s): cpu = 00:01:31 ; elapsed = 00:01:36 . Memory (MB): peak = 1238.848 ; gain = 628.535
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished IO Insertion : Time (s): cpu = 00:01:37 ; elapsed = 00:01:42 . Memory (MB): peak = 1238.848 ; gain = 628.535
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Instances
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Instances : Time (s): cpu = 00:01:37 ; elapsed = 00:01:42 . Memory (MB): peak = 1238.848 ; gain = 628.535
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+
+Report Check Netlist: 
++------+------------------+-------+---------+-------+------------------+
+|      |Item              |Errors |Warnings |Status |Description       |
++------+------------------+-------+---------+-------+------------------+
+|1     |multi_driven_nets |      0|        0|Passed |Multi driven nets |
++------+------------------+-------+---------+-------+------------------+
+---------------------------------------------------------------------------------
+Start Rebuilding User Hierarchy
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Rebuilding User Hierarchy : Time (s): cpu = 00:01:37 ; elapsed = 00:01:43 . Memory (MB): peak = 1238.848 ; gain = 628.535
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Ports
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Ports : Time (s): cpu = 00:01:37 ; elapsed = 00:01:43 . Memory (MB): peak = 1238.848 ; gain = 628.535
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:01:37 ; elapsed = 00:01:43 . Memory (MB): peak = 1238.848 ; gain = 628.535
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Nets
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Nets : Time (s): cpu = 00:01:37 ; elapsed = 00:01:43 . Memory (MB): peak = 1238.848 ; gain = 628.535
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Writing Synthesis Report
+---------------------------------------------------------------------------------
+
+Report BlackBoxes: 
++------+-------------------------+----------+
+|      |BlackBox name            |Instances |
++------+-------------------------+----------+
+|1     |led_show_num_led_num_0_0 |         1|
++------+-------------------------+----------+
+
+Report Cell Usage: 
++------+-------------------------+------+
+|      |Cell                     |Count |
++------+-------------------------+------+
+|1     |led_show_num_led_num_0_0 |     1|
+|2     |BUFG                     |     1|
+|3     |CARRY4                   |    20|
+|4     |LUT1                     |     2|
+|5     |LUT2                     |    73|
+|6     |LUT3                     |  1725|
+|7     |LUT4                     |   203|
+|8     |LUT5                     |   531|
+|9     |LUT6                     |  4590|
+|10    |MUXF7                    |  1657|
+|11    |MUXF8                    |   680|
+|12    |FDCE                     |  1380|
+|13    |FDPE                     |    28|
+|14    |FDRE                     |  2088|
+|15    |IBUF                     |     3|
+|16    |OBUF                     |    10|
++------+-------------------------+------+
+
+Report Instance Areas: 
++------+-------------+--------------+------+
+|      |Instance     |Module        |Cells |
++------+-------------+--------------+------+
+|1     |top          |              | 13009|
+|2     |  led        |led_show_num  |    18|
+|3     |  BLOCKA     |blockA        |    80|
+|4     |  blockb     |blockB        |   688|
+|5     |  blockc     |blockC        |  3149|
+|6     |  blockd     |blockD        |   144|
+|7     |  dataMem    |dataMem       |  6808|
+|8     |  getinst    |getInst       |   251|
+|9     |    imem     |instMem       |    79|
+|10    |    jp       |jmpPause      |    41|
+|11    |    pc       |pc            |   100|
+|12    |    rawpause |rawPause      |    29|
+|13    |  register   |register_heap |  1857|
++------+-------------+--------------+------+
+---------------------------------------------------------------------------------
+Finished Writing Synthesis Report : Time (s): cpu = 00:01:37 ; elapsed = 00:01:43 . Memory (MB): peak = 1238.848 ; gain = 628.535
+---------------------------------------------------------------------------------
+Synthesis finished with 0 errors, 0 critical warnings and 0 warnings.
+Synthesis Optimization Runtime : Time (s): cpu = 00:01:24 ; elapsed = 00:01:39 . Memory (MB): peak = 1238.848 ; gain = 519.590
+Synthesis Optimization Complete : Time (s): cpu = 00:01:38 ; elapsed = 00:01:43 . Memory (MB): peak = 1238.848 ; gain = 628.535
+INFO: [Project 1-571] Translating synthesized netlist
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.187 . Memory (MB): peak = 1238.848 ; gain = 0.000
+INFO: [Netlist 29-17] Analyzing 2357 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+INFO: [Project 1-570] Preparing netlist for logic optimization
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.003 . Memory (MB): peak = 1238.848 ; gain = 0.000
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+INFO: [Common 17-83] Releasing license: Synthesis
+187 Infos, 373 Warnings, 0 Critical Warnings and 0 Errors encountered.
+synth_design completed successfully
+synth_design: Time (s): cpu = 00:01:46 ; elapsed = 00:01:52 . Memory (MB): peak = 1238.848 ; gain = 901.953
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.004 . Memory (MB): peak = 1238.848 ; gain = 0.000
+WARNING: [Constraints 18-5210] No constraints selected for write.
+Resolution: This message can indicate that there are no constraints for the design, or it can indicate that the used_in flags are set such that the constraints are ignored. This later case is used when running synth_design to not write synthesis constraints to the resulting checkpoint. Instead, project constraints are read when the synthesized design is opened.
+INFO: [Common 17-1381] The checkpoint 'E:/study/bitmips_experiments/lab5/teach_soc/teach_soc.runs/synth_1/top_module.dcp' has been generated.
+INFO: [runtcl-4] Executing : report_utilization -file top_module_utilization_synth.rpt -pb top_module_utilization_synth.pb
+INFO: [Common 17-206] Exiting Vivado at Fri Sep 25 01:45:27 2020...

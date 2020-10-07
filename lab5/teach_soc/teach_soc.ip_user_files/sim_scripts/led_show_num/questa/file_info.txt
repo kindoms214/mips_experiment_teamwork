@@ -1,0 +1,4 @@
+led_num.v,verilog,xil_defaultlib,../../../bd/led_show_num/ipshared/0cc9/led_num.v,
+led_show_num_led_num_0_0.v,verilog,xil_defaultlib,../../../bd/led_show_num/ip/led_show_num_led_num_0_0/sim/led_show_num_led_num_0_0.v,
+led_show_num.v,verilog,xil_defaultlib,../../../bd/led_show_num/sim/led_show_num.v,
+glbl.v,Verilog,xil_defaultlib,glbl.v

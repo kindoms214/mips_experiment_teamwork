@@ -1,0 +1,104 @@
+﻿<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<EDKSYSTEM EDWVERSION="1.2" TIMESTAMP="Fri Sep 25 01:41:25 2020" VIVADOVERSION="2019.2">
+
+  <SYSTEMINFO ARCH="artix7" DEVICE="7a35t" NAME="led_show_num" PACKAGE="csg324" SPEEDGRADE="-1"/>
+
+  <EXTERNALPORTS>
+    <PORT CLKFREQUENCY="100000000" DIR="I" NAME="clk" SIGIS="clk" SIGNAME="External_Ports_clk">
+      <CONNECTIONS>
+        <CONNECTION INSTANCE="led_num_0" PORT="clk"/>
+      </CONNECTIONS>
+    </PORT>
+    <PORT DIR="I" NAME="rst" SIGIS="rst" SIGNAME="External_Ports_rst">
+      <CONNECTIONS>
+        <CONNECTION INSTANCE="led_num_0" PORT="rst"/>
+      </CONNECTIONS>
+    </PORT>
+    <PORT DIR="I" NAME="btn" SIGIS="undef" SIGNAME="External_Ports_btn">
+      <CONNECTIONS>
+        <CONNECTION INSTANCE="led_num_0" PORT="btn"/>
+      </CONNECTIONS>
+    </PORT>
+    <PORT DIR="I" LEFT="7" NAME="memout" RIGHT="0" SIGIS="undef" SIGNAME="External_Ports_memout">
+      <CONNECTIONS>
+        <CONNECTION INSTANCE="led_num_0" PORT="memout"/>
+      </CONNECTIONS>
+    </PORT>
+    <PORT DIR="O" LEFT="7" NAME="pianxuan" RIGHT="0" SIGIS="undef" SIGNAME="led_num_0_pianxuan">
+      <CONNECTIONS>
+        <CONNECTION INSTANCE="led_num_0" PORT="pianxuan"/>
+      </CONNECTIONS>
+    </PORT>
+    <PORT DIR="O" LEFT="1" NAME="anode_n" RIGHT="0" SIGIS="undef" SIGNAME="led_num_0_anode_n">
+      <CONNECTIONS>
+        <CONNECTION INSTANCE="led_num_0" PORT="anode_n"/>
+      </CONNECTIONS>
+    </PORT>
+    <PORT DIR="O" LEFT="7" NAME="tube_n" RIGHT="0" SIGIS="undef" SIGNAME="led_num_0_tube_n">
+      <CONNECTIONS>
+        <CONNECTION INSTANCE="led_num_0" PORT="tube_n"/>
+      </CONNECTIONS>
+    </PORT>
+  </EXTERNALPORTS>
+
+  <EXTERNALINTERFACES/>
+
+  <MODULES>
+    <MODULE COREREVISION="2" FULLNAME="/led_num_0" HWVERSION="1.0" INSTANCE="led_num_0" IPTYPE="PERIPHERAL" IS_ENABLE="1" MODCLASS="PERIPHERAL" MODTYPE="led_num" VLNV="xilinx.com:user:led_num:1.0">
+      <DOCUMENTS/>
+      <PARAMETERS>
+        <PARAMETER NAME="zero" VALUE="&quot;00111111&quot;"/>
+        <PARAMETER NAME="one" VALUE="&quot;00000110&quot;"/>
+        <PARAMETER NAME="two" VALUE="&quot;01011011&quot;"/>
+        <PARAMETER NAME="three" VALUE="&quot;01001111&quot;"/>
+        <PARAMETER NAME="four" VALUE="&quot;01100110&quot;"/>
+        <PARAMETER NAME="five" VALUE="&quot;01101101&quot;"/>
+        <PARAMETER NAME="six" VALUE="&quot;01111101&quot;"/>
+        <PARAMETER NAME="seven" VALUE="&quot;00000111&quot;"/>
+        <PARAMETER NAME="eight" VALUE="&quot;01111111&quot;"/>
+        <PARAMETER NAME="nine" VALUE="&quot;01101111&quot;"/>
+        <PARAMETER NAME="Component_Name" VALUE="led_show_num_led_num_0_0"/>
+        <PARAMETER NAME="EDK_IPTYPE" VALUE="PERIPHERAL"/>
+      </PARAMETERS>
+      <PORTS>
+        <PORT CLKFREQUENCY="100000000" DIR="I" NAME="clk" SIGIS="clk" SIGNAME="External_Ports_clk">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="External_Ports" PORT="clk"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" NAME="rst" SIGIS="rst" SIGNAME="External_Ports_rst">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="External_Ports" PORT="rst"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" NAME="btn" SIGIS="undef" SIGNAME="External_Ports_btn">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="External_Ports" PORT="btn"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" LEFT="7" NAME="memout" RIGHT="0" SIGIS="undef" SIGNAME="External_Ports_memout">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="External_Ports" PORT="memout"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="O" LEFT="7" NAME="pianxuan" RIGHT="0" SIGIS="undef" SIGNAME="led_num_0_pianxuan">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="External_Ports" PORT="pianxuan"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="O" LEFT="1" NAME="anode_n" RIGHT="0" SIGIS="undef" SIGNAME="led_num_0_anode_n">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="External_Ports" PORT="anode_n"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="O" LEFT="7" NAME="tube_n" RIGHT="0" SIGIS="undef" SIGNAME="led_num_0_tube_n">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="External_Ports" PORT="tube_n"/>
+          </CONNECTIONS>
+        </PORT>
+      </PORTS>
+      <BUSINTERFACES/>
+    </MODULE>
+  </MODULES>
+
+</EDKSYSTEM>

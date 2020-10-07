@@ -1,0 +1,28 @@
+# compile verilog/system verilog design source files
+verilog xil_defaultlib  \
+"../../../../teach_soc.ip_user_files/bd/led_show_num/ipshared/0cc9/led_num.v" \
+"../../../../teach_soc.ip_user_files/bd/led_show_num/ip/led_show_num_led_num_0_0/sim/led_show_num_led_num_0_0.v" \
+"../../../../teach_soc.ip_user_files/bd/led_show_num/sim/led_show_num.v" \
+"../../../../teach_soc.srcs/sources_1/new/myCPU/InstMem.v" \
+"../../../../teach_soc.srcs/sources_1/new/myCPU/alu.v" \
+"../../../../teach_soc.srcs/sources_1/new/myCPU/blockA.v" \
+"../../../../teach_soc.srcs/sources_1/new/myCPU/blockB.v" \
+"../../../../teach_soc.srcs/sources_1/new/myCPU/blockC.v" \
+"../../../../teach_soc.srcs/sources_1/new/myCPU/blockD.v" \
+"../../../../teach_soc.srcs/sources_1/new/myCPU/brUnit.v" \
+"../../../../teach_soc.srcs/sources_1/new/myCPU/control.v" \
+"../../../../teach_soc.srcs/sources_1/new/myCPU/dataMem.v" \
+"../../../../teach_soc.srcs/sources_1/new/myCPU/getInst.v" \
+"../../../../teach_soc.srcs/sources_1/new/myCPU/jmpPause.v" \
+"../../../../teach_soc.srcs/sources_1/new/myCPU/pc.v" \
+"../../../../teach_soc.srcs/sources_1/new/myCPU/rawPause.v" \
+"../../../../teach_soc.srcs/sources_1/new/myCPU/register_heap.v" \
+"../../../../teach_soc.srcs/sources_1/new/myCPU/signExtend.v" \
+"../../../../teach_soc.srcs/sources_1/new/myCPU/top_module.v" \
+"../../../../teach_soc.srcs/sources_1/new/testbench.v" \
+
+# compile glbl module
+verilog xil_defaultlib "glbl.v"
+
+# Do not sort compile order
+nosort

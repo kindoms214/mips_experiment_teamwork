@@ -1,0 +1,60 @@
+#-----------------------------------------------------------
+# Vivado v2019.2 (64-bit)
+# SW Build 2708876 on Wed Nov  6 21:40:23 MST 2019
+# IP Build 2700528 on Thu Nov  7 00:09:20 MST 2019
+# Start of session at: Tue Sep 22 20:58:59 2020
+# Process ID: 3232
+# Current directory: E:/study/vivado/TeamWork/bitmips_experiments/lab5/teach_soc
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent13712 E:\study\vivado\TeamWork\bitmips_experiments\lab5\teach_soc\teach_soc.xpr
+# Log file: E:/study/vivado/TeamWork/bitmips_experiments/lab5/teach_soc/vivado.log
+# Journal file: E:/study/vivado/TeamWork/bitmips_experiments/lab5/teach_soc\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project E:/study/vivado/TeamWork/bitmips_experiments/lab5/teach_soc/teach_soc.xpr
+update_compile_order -fileset sources_1
+launch_simulation
+source tb.tcl
+run 10 us
+current_wave_config {Untitled 1}
+add_wave {{/tb/teach_soc_top_u/cpu/register/gpr}} 
+current_wave_config {Untitled 1}
+add_wave {{/tb/teach_soc_top_u/cpu/register/pc4}} 
+relaunch_sim
+current_wave_config {Untitled 1}
+add_wave {{/tb/teach_soc_top_u/cpu/getinst/pc/pc}} 
+current_wave_config {Untitled 1}
+add_wave {{/tb/teach_soc_top_u/cpu/getinst/rawpause/new_inst}} 
+run 10 us
+relaunch_sim
+run 10 us
+current_wave_config {Untitled 1}
+add_wave {{/tb/teach_soc_top_u/cpu/BLOCKA/new_inst}} 
+current_wave_config {Untitled 1}
+add_wave {{/tb/teach_soc_top_u/cpu/control/opcode}} 
+current_wave_config {Untitled 1}
+add_wave {{/tb/teach_soc_top_u/cpu/control/jalD}} 
+current_wave_config {Untitled 1}
+add_wave {{/tb/teach_soc_top_u/cpu/alu/alu_output}} 
+current_wave_config {Untitled 1}
+add_wave {{/tb/teach_soc_top_u/cpu/alu/RD1}} 
+current_wave_config {Untitled 1}
+add_wave {{/tb/teach_soc_top_u/cpu/alu/RD2}} 
+relaunch_sim
+run 10 us
+current_wave_config {Untitled 1}
+add_wave {{/tb/teach_soc_top_u/cpu/control}} 
+current_wave_config {Untitled 1}
+add_wave {{/tb/teach_soc_top_u/cpu/control}} 
+relaunch_sim
+run 10 us
+current_wave_config {Untitled 1}
+add_wave {{/tb/teach_soc_top_u/cpu/alu}} 
+relaunch_sim
+run 10 us
+current_wave_config {Untitled 1}
+add_wave {{/tb/teach_soc_top_u/cpu/alu}} 
+relaunch_sim
+run 10 us
+relaunch_sim
+run 10 us
+close_sim
