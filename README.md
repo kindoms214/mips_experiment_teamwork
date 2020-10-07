@@ -1,4 +1,4 @@
 # mips_experiment_teamwork
 
 
-![image](https://s1.ax1x.com/2020/10/07/0aTNkV.png)
+![Image text](https://github.com/kindoms214/mips_experiment_teamwork/blob/master/git_temp.png)
